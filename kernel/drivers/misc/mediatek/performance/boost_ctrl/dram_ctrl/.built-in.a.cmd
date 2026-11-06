@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/performance/boost_ctrl/dram_ctrl/built-in.a :=  rm -f drivers/misc/mediatek/performance/boost_ctrl/dram_ctrl/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/performance/boost_ctrl/dram_ctrl/built-in.a drivers/misc/mediatek/performance/boost_ctrl/dram_ctrl/dram_ctrl.o

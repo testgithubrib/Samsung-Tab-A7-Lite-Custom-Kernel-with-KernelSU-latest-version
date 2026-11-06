@@ -1,0 +1,1 @@
+cmd_sound/soc/mediatek/mt6765/built-in.a :=  rm -f sound/soc/mediatek/mt6765/built-in.a; aarch64-linux-gnu-ar rcSTPD sound/soc/mediatek/mt6765/built-in.a sound/soc/mediatek/mt6765/mtk-auddrv-clk.o sound/soc/mediatek/mt6765/mtk-soc-afe-connection.o sound/soc/mediatek/mt6765/mt6765-sound.o

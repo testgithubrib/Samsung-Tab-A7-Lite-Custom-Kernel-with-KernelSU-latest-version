@@ -1,0 +1,131 @@
+!<thin>
+//                                              2318      `
+soc-core.o/
+soc-dapm.o/
+soc-jack.o/
+soc-utils.o/
+soc-pcm.o/
+soc-io.o/
+soc-devres.o/
+soc-ops.o/
+soc-generic-dmaengine-pcm.o/
+soc-compress.o/
+codecs/mt6357-accdet.o/
+codecs/rt5509.o/
+codecs/rt5509-regmap.o/
+codecs/rt5509-calib.o/
+mediatek/common/mtk-btcvsd.o/
+mediatek/aw87390/aw87xxx.o/
+mediatek/aw87390/aw87xxx_device.o/
+mediatek/aw87390/aw87xxx_monitor.o/
+mediatek/aw87390/aw87xxx_bin_parse.o/
+mediatek/aw87390/aw87xxx_dsp.o/
+mediatek/aw87390/aw87xxx_acf_bin.o/
+mediatek/codec/mt6357/mtk-soc-codec-6357.o/
+mediatek/codec/mt6357/mtk-auddrv-ana.o/
+mediatek/common_int/mtk-auddrv-devtree-parser.o/
+mediatek/common_int/mtk-soc-speaker-amp.o/
+mediatek/common_int/mtk-auddrv-afe.o/
+mediatek/common_int/mtk-auddrv-gpio.o/
+mediatek/common_int/mtk-soc-afe-control.o/
+mediatek/common_int/mtk-soc-pcm-common.o/
+mediatek/common_int/mtk-soc-pcm-capture.o/
+mediatek/common_int/mtk-soc-pcm-dl1.o/
+mediatek/common_int/mtk-soc-pcm-dummy.o/
+mediatek/common_int/mtk-soc-pcm-routing.o/
+mediatek/common_int/mtk-soc-pcm-capture2.o/
+mediatek/common_int/mtk-soc-pcm-i2s2-adc2.o/
+mediatek/common_int/mtk-soc-pcm-voice-md1.o/
+mediatek/common_int/mtk-soc-pcm-voice-md2.o/
+mediatek/common_int/mtk-soc-pcm-voice-md1-bt.o/
+mediatek/common_int/mtk-soc-pcm-voice-md2-bt.o/
+mediatek/common_int/mtk-soc-pcm-voice-usb.o/
+mediatek/common_int/mtk-soc-pcm-voice-usb-echoref.o/
+mediatek/common_int/mtk-soc-pcm-dl1-i2s0.o/
+mediatek/common_int/mtk-soc-pcm-dl1-i2s0Dl1.o/
+mediatek/common_int/mtk-soc-pcm-i2s0-awb.o/
+mediatek/common_int/mtk-soc-pcm-uldlloopback.o/
+mediatek/common_int/mtk-soc-pcm-dl2.o/
+mediatek/common_int/mtk-soc-pcm-deep-buffer-dl.o/
+mediatek/common_int/mtk-soc-pcm-mrgrx.o/
+mediatek/common_int/mtk-soc-pcm-mrgrx-awb.o/
+mediatek/common_int/mtk-soc-pcm-fm-i2s.o/
+mediatek/common_int/mtk-soc-pcm-fm-i2s-awb.o/
+mediatek/common_int/mtk-soc-pcm-dl1-awb.o/
+mediatek/common_int/mtk-soc-pcm-dl1-bt.o/
+mediatek/common_int/mtk-soc-pcm-bt-dai.o/
+mediatek/common_int/mtk-soc-dai-stub.o/
+mediatek/common_int/mtk-soc-dai-routing.o/
+mediatek/common_int/mtk-soc-codec-dummy.o/
+mediatek/common_int/mtk-soc-pcm-fmtx.o/
+mediatek/common_int/mtk-soc-tdm-capture.o/
+mediatek/common_int/mtk-soc-pcm-hp-impedance.o/
+mediatek/common_int/mtk-soc-machine.o/
+mediatek/mt6765/mtk-auddrv-clk.o/
+mediatek/mt6765/mtk-soc-afe-connection.o/
+mediatek/mt6765/mt6765-sound.o/
+
+/0              0           0     0     644     572304    `
+/12             0           0     0     644     423520    `
+/24             0           0     0     644     275856    `
+/36             0           0     0     644     218904    `
+/49             0           0     0     644     344088    `
+/60             0           0     0     644     194040    `
+/70             0           0     0     644     203928    `
+/84             0           0     0     644     243232    `
+/95             0           0     0     644     228368    `
+/124            0           0     0     644     221392    `
+/140            0           0     0     644     394752    `
+/164            0           0     0     644     335896    `
+/181            0           0     0     644     180224    `
+/205            0           0     0     644     251648    `
+/228            0           0     0     644     276064    `
+/258            0           0     0     644     328648    `
+/286            0           0     0     644     197816    `
+/321            0           0     0     644     324296    `
+/357            0           0     0     644     29832     `
+/395            0           0     0     644     12880     `
+/427            0           0     0     644     237128    `
+/463            0           0     0     644     576232    `
+/507            0           0     0     644     269448    `
+/547            0           0     0     644     179736    `
+/596            0           0     0     644     203992    `
+/639            0           0     0     644     174600    `
+/677            0           0     0     644     164392    `
+/716            0           0     0     644     468136    `
+/759            0           0     0     644     165760    `
+/801            0           0     0     644     262896    `
+/844            0           0     0     644     255720    `
+/883            0           0     0     644     216672    `
+/924            0           0     0     644     302608    `
+/967            0           0     0     644     243696    `
+/1011           0           0     0     644     242280    `
+/1056           0           0     0     644     249840    `
+/1101           0           0     0     644     237096    `
+/1146           0           0     0     644     236160    `
+/1194           0           0     0     644     237624    `
+/1242           0           0     0     644     285808    `
+/1287           0           0     0     644     249008    `
+/1340           0           0     0     644     266592    `
+/1384           0           0     0     644     274224    `
+/1431           0           0     0     644     243408    `
+/1475           0           0     0     644     247832    `
+/1523           0           0     0     644     284240    `
+/1562           0           0     0     644     275232    `
+/1612           0           0     0     644     244256    `
+/1653           0           0     0     644     248312    `
+/1698           0           0     0     644     239712    `
+/1740           0           0     0     644     250848    `
+/1786           0           0     0     644     241016    `
+/1829           0           0     0     644     245728    `
+/1871           0           0     0     644     254368    `
+/1913           0           0     0     644     245816    `
+/1953           0           0     0     644     203072    `
+/1996           0           0     0     644     222288    `
+/2039           0           0     0     644     243296    `
+/2079           0           0     0     644     249488    `
+/2122           0           0     0     644     229904    `
+/2170           0           0     0     644     240184    `
+/2209           0           0     0     644     238888    `
+/2243           0           0     0     644     75856     `
+/2285           0           0     0     644     247352    `

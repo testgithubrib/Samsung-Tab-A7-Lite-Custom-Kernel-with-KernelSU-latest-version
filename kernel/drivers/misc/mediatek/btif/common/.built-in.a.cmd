@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/btif/common/built-in.a :=  rm -f drivers/misc/mediatek/btif/common/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/btif/common/built-in.a drivers/misc/mediatek/btif/common/mtk_btif.o drivers/misc/mediatek/btif/common/mtk_btif_exp.o drivers/misc/mediatek/btif/common/btif_dma_plat.o drivers/misc/mediatek/btif/common/btif_plat.o

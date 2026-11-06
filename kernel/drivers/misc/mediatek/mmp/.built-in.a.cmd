@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/mmp/built-in.a :=  rm -f drivers/misc/mediatek/mmp/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/mmp/built-in.a drivers/misc/mediatek/mmp/src/built-in.a

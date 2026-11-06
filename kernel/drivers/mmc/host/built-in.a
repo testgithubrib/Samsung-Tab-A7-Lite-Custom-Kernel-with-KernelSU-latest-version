@@ -1,0 +1,18 @@
+!<thin>
+//                                              240       `
+mediatek/ComboA/mt6765/msdc_cust.o/
+mediatek/ComboA/mt6765/autok_dvfs.o/
+mediatek/ComboA/sd.o/
+mediatek/ComboA/dbg.o/
+mediatek/ComboA/msdc_tune.o/
+mediatek/ComboA/autok.o/
+mediatek/ComboA/mmc-sec-sysfs.o/
+mediatek/ComboA/sw-cqhci-crypto.o/
+/0              0           0     0     644     311168    `
+/36             0           0     0     644     243032    `
+/73             0           0     0     644     532200    `
+/95             0           0     0     644     372312    `
+/118            0           0     0     644     238880    `
+/147            0           0     0     644     466984    `
+/172            0           0     0     644     192168    `
+/205            0           0     0     644     184616    `

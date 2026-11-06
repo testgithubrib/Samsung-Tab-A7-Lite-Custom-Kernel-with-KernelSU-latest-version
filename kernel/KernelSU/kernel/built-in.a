@@ -1,0 +1,75 @@
+!<thin>
+//                                              782       `
+core/init.o/
+feature/kernel_umount.o/
+feature/module_blacklist.o/
+feature/sulog.o/
+feature/sucompat.o/
+hook/lsm_hook.o/
+hook/setuid_hook.o/
+hook/syscall_event_bridge.o/
+hook/syscall_hook_manager.o/
+hook/tp_marker.o/
+hook/arm64/patch_memory.o/
+hook/arm64/syscall_hook.o/
+infra/file_wrapper.o/
+infra/event_queue.o/
+infra/seccomp_cache.o/
+infra/su_mount_ns.o/
+infra/symbol_resolver.o/
+manager/apk_sign.o/
+manager/pkg_observer.o/
+manager/throne_tracker.o/
+policy/allowlist.o/
+policy/app_profile.o/
+policy/feature.o/
+runtime/boot_event.o/
+runtime/ksud_integration.o/
+selinux/selinux.o/
+selinux/rules.o/
+selinux/sepolicy.o/
+sulog/event.o/
+sulog/fd.o/
+supercall/dispatch.o/
+supercall/perm.o/
+supercall/supercall.o/
+feature/adb_root.o/
+feature/selinux_hide.o/
+feature/shell_su_adb_only.o/
+
+/0              0           0     0     644     128352    `
+/13             0           0     0     644     105896    `
+/38             0           0     0     644     14768     `
+/66             0           0     0     644     13944     `
+/83             0           0     0     644     193256    `
+/103            0           0     0     644     146224    `
+/120            0           0     0     644     107264    `
+/140            0           0     0     644     120736    `
+/169            0           0     0     644     141448    `
+/198            0           0     0     644     79848     `
+/216            0           0     0     644     142376    `
+/243            0           0     0     644     27736     `
+/270            0           0     0     644     334664    `
+/292            0           0     0     644     119280    `
+/313            0           0     0     644     5872      `
+/336            0           0     0     644     184256    `
+/357            0           0     0     644     114984    `
+/382            0           0     0     644     190920    `
+/402            0           0     0     644     121800    `
+/426            0           0     0     644     197312    `
+/452            0           0     0     644     138536    `
+/472            0           0     0     644     132808    `
+/494            0           0     0     644     35720     `
+/512            0           0     0     644     97200     `
+/534            0           0     0     644     182032    `
+/562            0           0     0     644     314352    `
+/581            0           0     0     644     334680    `
+/598            0           0     0     644     59464     `
+/618            0           0     0     644     127960    `
+/633            0           0     0     644     101360    `
+/645            0           0     0     644     261712    `
+/667            0           0     0     644     95960     `
+/685            0           0     0     644     187160    `
+/708            0           0     0     644     130464    `
+/728            0           0     0     644     6376      `
+/752            0           0     0     644     65816     `

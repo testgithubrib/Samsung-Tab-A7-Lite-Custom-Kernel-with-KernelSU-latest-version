@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/usb_boost/v1/built-in.a :=  rm -f drivers/misc/mediatek/usb_boost/v1/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/usb_boost/v1/built-in.a drivers/misc/mediatek/usb_boost/v1/usb_boost_plat.o

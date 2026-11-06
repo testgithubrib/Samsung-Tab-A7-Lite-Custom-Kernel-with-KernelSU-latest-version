@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/lcm/ft8201_lianchuang_boe_dsi_vdo_hdp_wxga/built-in.a :=  rm -f drivers/misc/mediatek/lcm/ft8201_lianchuang_boe_dsi_vdo_hdp_wxga/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/lcm/ft8201_lianchuang_boe_dsi_vdo_hdp_wxga/built-in.a drivers/misc/mediatek/lcm/ft8201_lianchuang_boe_dsi_vdo_hdp_wxga/ft8201_lianchuang_boe_dsi_vdo_hdp_wxga.o

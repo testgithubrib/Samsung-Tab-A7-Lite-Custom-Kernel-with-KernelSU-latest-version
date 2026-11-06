@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/timer/built-in.a :=  rm -f drivers/misc/mediatek/timer/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/timer/built-in.a drivers/misc/mediatek/timer/timesync/built-in.a

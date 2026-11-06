@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/lcm/ili9881t_liansi_inx_incell_vdo/built-in.a :=  rm -f drivers/misc/mediatek/lcm/ili9881t_liansi_inx_incell_vdo/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/lcm/ili9881t_liansi_inx_incell_vdo/built-in.a drivers/misc/mediatek/lcm/ili9881t_liansi_inx_incell_vdo/ili9881t_liansi_inx_incell_vdo.o

@@ -1,0 +1,90 @@
+!<thin>
+//                                              958       `
+dispsys/ddp_ovl.o/
+dispsys/ddp_rdma_ex.o/
+dispsys/ddp_wdma_ex.o/
+dispsys/ddp_dsi.o/
+dispsys/ddp_clkmgr.o/
+dispsys/ddp_rsz.o/
+dispsys/ddp_drv.o/
+dispsys/ddp_path.o/
+dispsys/ddp_mutex.o/
+dispsys/ddp_m4u.o/
+dispsys/ddp_debug.o/
+dispsys/ddp_dump.o/
+dispsys/ddp_manager.o/
+dispsys/ddp_irq.o/
+dispsys/ddp_info.o/
+dispsys/ddp_color_format.o/
+dispsys/ddp_pwm_mux.o/
+dispsys/ddp_mmp.o/
+dispsys/ddp_met.o/
+dispsys/display_recorder.o/
+videox/mtkfb_console.o/
+videox/disp_assert_layer.o/
+videox/mtkfb.o/
+videox/mtkfb_fence.o/
+videox/fbconfig_kdebug.o/
+videox/mtkfb_vsync.o/
+videox/disp_cust.o/
+videox/mtk_notify.o/
+videox/debug.o/
+videox/primary_display.o/
+videox/disp_lowpower.o/
+videox/disp_recovery.o/
+videox/disp_lcm.o/
+videox/disp_utils.o/
+videox/mtk_disp_mgr.o/
+videox/compat_mtk_disp_mgr.o/
+videox/disp_helper.o/
+videox/disp_dts_gpio.o/
+videox/disp_rect.o/
+videox/disp_arr.o/
+videox/disp_partial.o/
+videox/mtk_ovl.o/
+videox/layering_rule.o/
+videox/frame_queue.o/
+/0              0           0     0     644     664928    `
+/19             0           0     0     644     522328    `
+/42             0           0     0     644     486592    `
+/65             0           0     0     644     1254808   `
+/84             0           0     0     644     258440    `
+/106            0           0     0     644     290056    `
+/125            0           0     0     644     243080    `
+/144            0           0     0     644     309536    `
+/164            0           0     0     644     247640    `
+/185            0           0     0     644     230656    `
+/204            0           0     0     644     279864    `
+/225            0           0     0     644     329432    `
+/245            0           0     0     644     431024    `
+/268            0           0     0     644     261992    `
+/287            0           0     0     644     91896     `
+/307            0           0     0     644     25920     `
+/335            0           0     0     644     188096    `
+/358            0           0     0     644     73936     `
+/377            0           0     0     644     12688     `
+/396            0           0     0     644     279800    `
+/424            0           0     0     644     39360     `
+/448            0           0     0     644     63448     `
+/476            0           0     0     644     469768    `
+/492            0           0     0     644     308992    `
+/514            0           0     0     644     685336    `
+/540            0           0     0     644     209056    `
+/562            0           0     0     644     14552     `
+/582            0           0     0     644     193264    `
+/603            0           0     0     644     441040    `
+/619            0           0     0     644     1182576   `
+/645            0           0     0     644     408624    `
+/669            0           0     0     644     413144    `
+/693            0           0     0     644     125256    `
+/712            0           0     0     644     11576     `
+/733            0           0     0     644     371632    `
+/756            0           0     0     644     1505464   `
+/786            0           0     0     644     35784     `
+/808            0           0     0     644     178872    `
+/832            0           0     0     644     18096     `
+/852            0           0     0     644     232128    `
+/871            0           0     0     644     239296    `
+/894            0           0     0     644     353432    `
+/912            0           0     0     644     53360     `
+/936            0           0     0     644     206240    `

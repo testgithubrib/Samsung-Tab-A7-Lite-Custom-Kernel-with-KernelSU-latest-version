@@ -1,0 +1,14 @@
+!<thin>
+//                                              112       `
+coresight.o/
+coresight-etm-perf.o/
+of_coresight.o/
+coresight-funnel.o/
+coresight-replicator.o/
+coresight-stm.o/
+/0              0           0     0     644     232880    `
+/13             0           0     0     644     212464    `
+/35             0           0     0     644     178656    `
+/51             0           0     0     644     204648    `
+/71             0           0     0     644     189768    `
+/95             0           0     0     644     246992    `

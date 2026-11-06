@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/built-in.a :=  rm -f sound/soc/codecs/built-in.a; aarch64-linux-gnu-ar rcSTPD sound/soc/codecs/built-in.a sound/soc/codecs/mt6357-accdet.o sound/soc/codecs/rt5509.o sound/soc/codecs/rt5509-regmap.o sound/soc/codecs/rt5509-calib.o

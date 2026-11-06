@@ -1,0 +1,35 @@
+!<thin>
+//                                              326       `
+hdmi.o/
+fbdev/core/fb_cmdline.o/
+fbdev/core/fb_notify.o/
+fbdev/core/fbmem.o/
+fbdev/core/fbmon.o/
+fbdev/core/fbcmap.o/
+fbdev/core/fbsysfs.o/
+fbdev/core/modedb.o/
+fbdev/core/fbcvt.o/
+fbdev/core/cfbfillrect.o/
+fbdev/core/cfbcopyarea.o/
+fbdev/core/cfbimgblt.o/
+display_timing.o/
+videomode.o/
+of_display_timing.o/
+of_videomode.o/
+
+/0              0           0     0     644     98960     `
+/8              0           0     0     644     14952     `
+/33             0           0     0     644     133928    `
+/57             0           0     0     644     314328    `
+/77             0           0     0     644     156744    `
+/97             0           0     0     644     176928    `
+/118            0           0     0     644     176336    `
+/140            0           0     0     644     185352    `
+/161            0           0     0     644     22480     `
+/181            0           0     0     644     163872    `
+/207            0           0     0     644     164120    `
+/233            0           0     0     644     154288    `
+/257            0           0     0     644     10264     `
+/275            0           0     0     644     12560     `
+/288            0           0     0     644     45200     `
+/309            0           0     0     644     26512     `

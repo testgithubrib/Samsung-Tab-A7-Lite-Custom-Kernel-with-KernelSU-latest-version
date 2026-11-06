@@ -1,0 +1,78 @@
+!<thin>
+//                                              902       `
+mtk-auddrv-devtree-parser.o/
+mtk-soc-speaker-amp.o/
+mtk-auddrv-afe.o/
+mtk-auddrv-gpio.o/
+mtk-soc-afe-control.o/
+mtk-soc-pcm-common.o/
+mtk-soc-pcm-capture.o/
+mtk-soc-pcm-dl1.o/
+mtk-soc-pcm-dummy.o/
+mtk-soc-pcm-routing.o/
+mtk-soc-pcm-capture2.o/
+mtk-soc-pcm-i2s2-adc2.o/
+mtk-soc-pcm-voice-md1.o/
+mtk-soc-pcm-voice-md2.o/
+mtk-soc-pcm-voice-md1-bt.o/
+mtk-soc-pcm-voice-md2-bt.o/
+mtk-soc-pcm-voice-usb.o/
+mtk-soc-pcm-voice-usb-echoref.o/
+mtk-soc-pcm-dl1-i2s0.o/
+mtk-soc-pcm-dl1-i2s0Dl1.o/
+mtk-soc-pcm-i2s0-awb.o/
+mtk-soc-pcm-uldlloopback.o/
+mtk-soc-pcm-dl2.o/
+mtk-soc-pcm-deep-buffer-dl.o/
+mtk-soc-pcm-mrgrx.o/
+mtk-soc-pcm-mrgrx-awb.o/
+mtk-soc-pcm-fm-i2s.o/
+mtk-soc-pcm-fm-i2s-awb.o/
+mtk-soc-pcm-dl1-awb.o/
+mtk-soc-pcm-dl1-bt.o/
+mtk-soc-pcm-bt-dai.o/
+mtk-soc-dai-stub.o/
+mtk-soc-dai-routing.o/
+mtk-soc-codec-dummy.o/
+mtk-soc-pcm-fmtx.o/
+mtk-soc-tdm-capture.o/
+mtk-soc-pcm-hp-impedance.o/
+mtk-soc-machine.o/
+/0              0           0     0     644     179736    `
+/29             0           0     0     644     203992    `
+/52             0           0     0     644     174600    `
+/70             0           0     0     644     164392    `
+/89             0           0     0     644     468136    `
+/112            0           0     0     644     165760    `
+/134            0           0     0     644     262896    `
+/157            0           0     0     644     255720    `
+/176            0           0     0     644     216672    `
+/197            0           0     0     644     302608    `
+/220            0           0     0     644     243696    `
+/244            0           0     0     644     242280    `
+/269            0           0     0     644     249840    `
+/294            0           0     0     644     237096    `
+/319            0           0     0     644     236160    `
+/347            0           0     0     644     237624    `
+/375            0           0     0     644     285808    `
+/400            0           0     0     644     249008    `
+/433            0           0     0     644     266592    `
+/457            0           0     0     644     274224    `
+/484            0           0     0     644     243408    `
+/508            0           0     0     644     247832    `
+/536            0           0     0     644     284240    `
+/555            0           0     0     644     275232    `
+/585            0           0     0     644     244256    `
+/606            0           0     0     644     248312    `
+/631            0           0     0     644     239712    `
+/653            0           0     0     644     250848    `
+/679            0           0     0     644     241016    `
+/702            0           0     0     644     245728    `
+/724            0           0     0     644     254368    `
+/746            0           0     0     644     245816    `
+/766            0           0     0     644     203072    `
+/789            0           0     0     644     222288    `
+/812            0           0     0     644     243296    `
+/832            0           0     0     644     249488    `
+/855            0           0     0     644     229904    `
+/883            0           0     0     644     240184    `

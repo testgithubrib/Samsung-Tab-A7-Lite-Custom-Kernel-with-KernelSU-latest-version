@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/ext_gic/mt6765/built-in.a :=  rm -f drivers/misc/mediatek/ext_gic/mt6765/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/ext_gic/mt6765/built-in.a drivers/misc/mediatek/ext_gic/mt6765/plat_sw_mode.o

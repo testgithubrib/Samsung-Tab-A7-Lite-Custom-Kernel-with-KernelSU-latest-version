@@ -1,0 +1,11 @@
+!<thin>
+//                                              70        `
+atkbd.o/
+mediatek/kpd.o/
+mediatek/mt6765/hal_kpd.o/
+mtk-pmic-keys.o/
+
+/0              0           0     0     644     225816    `
+/9              0           0     0     644     205512    `
+/25             0           0     0     644     178152    `
+/52             0           0     0     644     163552    `

@@ -1,0 +1,1 @@
+cmd_drivers/staging/android/built-in.a :=  rm -f drivers/staging/android/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/staging/android/built-in.a drivers/staging/android/ashmem.o drivers/staging/android/alarm-dev.o drivers/staging/android/debug_kinfo.o drivers/staging/android/lmkd_debug.o drivers/staging/android/mtk_ion/built-in.a

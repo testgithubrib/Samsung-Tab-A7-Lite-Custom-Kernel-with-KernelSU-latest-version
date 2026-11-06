@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/ice_debug/built-in.a :=  rm -f drivers/misc/mediatek/ice_debug/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/ice_debug/built-in.a drivers/misc/mediatek/ice_debug/ice_debug.o

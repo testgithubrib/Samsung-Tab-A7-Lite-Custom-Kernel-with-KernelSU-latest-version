@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/qos/built-in.a :=  rm -f drivers/misc/mediatek/qos/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/qos/built-in.a drivers/misc/mediatek/qos/qos-v79.o drivers/misc/mediatek/qos/mtk_qos_common.o drivers/misc/mediatek/qos/mtk_qos_bound.o drivers/misc/mediatek/qos/mtk_qos_sysfs.o drivers/misc/mediatek/qos/qos-v61.o

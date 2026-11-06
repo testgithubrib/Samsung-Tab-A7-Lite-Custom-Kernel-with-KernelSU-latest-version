@@ -1,0 +1,49 @@
+!<thin>
+//                                              356       `
+psci.o/
+arm_scpi.o/
+dmi_scan.o/
+dmi-id.o/
+arm_scmi/bus.o/
+arm_scmi/driver.o/
+arm_scmi/base.o/
+arm_scmi/clock.o/
+arm_scmi/perf.o/
+arm_scmi/power.o/
+arm_scmi/sensors.o/
+efi/efi.o/
+efi/vars.o/
+efi/reboot.o/
+efi/memattr.o/
+efi/tpm.o/
+efi/capsule.o/
+efi/memmap.o/
+efi/esrt.o/
+efi/runtime-wrappers.o/
+efi/libstub/lib-ksyms.o/
+efi/arm-init.o/
+efi/arm-runtime.o/
+
+/0              0           0     0     644     204416    `
+/8              0           0     0     644     145056    `
+/20             0           0     0     644     189224    `
+/32             0           0     0     644     65920     `
+/42             0           0     0     644     71384     `
+/58             0           0     0     644     140336    `
+/77             0           0     0     644     49040     `
+/94             0           0     0     644     57072     `
+/112            0           0     0     644     67864     `
+/129            0           0     0     644     50696     `
+/147            0           0     0     644     53776     `
+/167            0           0     0     644     199520    `
+/178            0           0     0     644     205672    `
+/190            0           0     0     644     13136     `
+/204            0           0     0     644     131928    `
+/219            0           0     0     644     8400      `
+/230            0           0     0     644     143072    `
+/245            0           0     0     644     136728    `
+/259            0           0     0     644     155896    `
+/271            0           0     0     644     58432     `
+/295            0           0     0     644     656       `
+/320            0           0     0     644     150584    `
+/336            0           0     0     644     152536    `

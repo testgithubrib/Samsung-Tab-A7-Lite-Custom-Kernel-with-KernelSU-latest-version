@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/spi_slave_drv/built-in.a :=  rm -f drivers/misc/mediatek/spi_slave_drv/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/spi_slave_drv/built-in.a drivers/misc/mediatek/spi_slave_drv/spi_slave.o

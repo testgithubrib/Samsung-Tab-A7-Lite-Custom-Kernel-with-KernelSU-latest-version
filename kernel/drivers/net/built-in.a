@@ -1,0 +1,82 @@
+!<thin>
+//                                              604       `
+dummy.o/
+mii.o/
+Space.o/
+loopback.o/
+phy/mdio-boardinfo.o/
+phy/phy.o/
+phy/phy-c45.o/
+phy/phy-core.o/
+phy/phy_device.o/
+phy/mdio_bus.o/
+phy/mdio_device.o/
+phy/swphy.o/
+phy/fixed_phy.o/
+tun.o/
+veth.o/
+virtio_net.o/
+ppp/ppp_generic.o/
+ppp/bsd_comp.o/
+ppp/ppp_deflate.o/
+ppp/ppp_mppe.o/
+ppp/pppox.o/
+ppp/pptp.o/
+slip/slhc.o/
+wireless/virt_wifi.o/
+usb/rtl8150.o/
+usb/r8152.o/
+usb/asix_devices.o/
+usb/asix_common.o/
+usb/ax88172a.o/
+usb/ax88179_178a.o/
+usb/cdc_ether.o/
+usb/cdc_eem.o/
+usb/smsc75xx.o/
+usb/smsc95xx.o/
+usb/net1080.o/
+usb/cdc_subset.o/
+usb/usbnet.o/
+usb/cdc_ncm.o/
+usb/cdc_mbim.o/
+net_failover.o/
+/0              0           0     0     644     261520    `
+/9              0           0     0     644     265776    `
+/16             0           0     0     644     223792    `
+/25             0           0     0     644     310480    `
+/37             0           0     0     644     137872    `
+/59             0           0     0     644     321952    `
+/70             0           0     0     644     178720    `
+/85             0           0     0     644     185600    `
+/101            0           0     0     644     389128    `
+/119            0           0     0     644     354272    `
+/135            0           0     0     644     166680    `
+/154            0           0     0     644     13976     `
+/167            0           0     0     644     193320    `
+/184            0           0     0     644     589032    `
+/191            0           0     0     644     417128    `
+/199            0           0     0     644     568440    `
+/213            0           0     0     644     496168    `
+/232            0           0     0     644     53728     `
+/248            0           0     0     644     52872     `
+/267            0           0     0     644     153408    `
+/283            0           0     0     644     310496    `
+/296            0           0     0     644     370648    `
+/308            0           0     0     644     37216     `
+/321            0           0     0     644     354672    `
+/343            0           0     0     644     315896    `
+/358            0           0     0     644     648768    `
+/371            0           0     0     644     335368    `
+/391            0           0     0     644     312624    `
+/410            0           0     0     644     283048    `
+/426            0           0     0     644     338816    `
+/446            0           0     0     644     294976    `
+/463            0           0     0     644     267032    `
+/478            0           0     0     644     393424    `
+/494            0           0     0     644     382384    `
+/510            0           0     0     644     278976    `
+/525            0           0     0     644     255072    `
+/543            0           0     0     644     461480    `
+/557            0           0     0     644     389664    `
+/572            0           0     0     644     364240    `
+/588            0           0     0     644     302840    `

@@ -1,0 +1,61 @@
+!<thin>
+//                                              846       `
+sensorHub/nanohub/main.o/
+sensorHub/nanohub/bl.o/
+sensorHub/nanohub/comms.o/
+sensorHub/nanohub/nanohub-mtk.o/
+sensorHub/SCP_nanoHub/SCP_nanoHub.o/
+sensorHub/SCP_power_monitor/SCP_power_monitor.o/
+hwmon/hwmsen/hwmsen_helper.o/
+hwmon/sensor_dts/sensor_dts.o/
+hwmon/sensor_attributes/sensor_attr.o/
+hwmon/sensor_event/sensor_event.o/
+hwmon/sensor_performance/sensor_performance.o/
+hwmon/sensor_list/sensor_list.o/
+alsps/alsps.o/
+alsps/alsps_factory.o/
+alsps/aal_control.o/
+alsps/alspshub/alspshub.o/
+accelerometer/accel.o/
+accelerometer/accel_factory.o/
+accelerometer/accelhub/accelhub.o/
+magnetometer/mag.o/
+magnetometer/mag_factory.o/
+magnetometer/maghub/maghub.o/
+step_counter/step_counter.o/
+step_counter/stepsignhub/stepsignhub.o/
+situation/situation.o/
+sar/sensors_core.o/
+sar/a96t349/abov_sar.o/
+sar/sx932x/sx932x.o/
+sar/sensor_user_node.o/
+
+/0              0           0     0     644     214744    `
+/26             0           0     0     644     158000    `
+/50             0           0     0     644     173056    `
+/77             0           0     0     644     185128    `
+/110            0           0     0     644     339584    `
+/147            0           0     0     644     20832     `
+/196            0           0     0     644     201944    `
+/226            0           0     0     644     110272    `
+/257            0           0     0     644     132952    `
+/296            0           0     0     644     126936    `
+/331            0           0     0     644     944       `
+/378            0           0     0     644     138992    `
+/411            0           0     0     644     245664    `
+/426            0           0     0     644     163024    `
+/449            0           0     0     644     146072    `
+/470            0           0     0     644     243848    `
+/497            0           0     0     644     214152    `
+/520            0           0     0     644     159984    `
+/551            0           0     0     644     209880    `
+/586            0           0     0     644     208760    `
+/606            0           0     0     644     151008    `
+/634            0           0     0     644     204792    `
+/664            0           0     0     644     237976    `
+/693            0           0     0     644     167776    `
+/733            0           0     0     644     182336    `
+/756            0           0     0     644     155080    `
+/776            0           0     0     644     294424    `
+/800            0           0     0     644     292480    `
+/821            0           0     0     644     87080     `

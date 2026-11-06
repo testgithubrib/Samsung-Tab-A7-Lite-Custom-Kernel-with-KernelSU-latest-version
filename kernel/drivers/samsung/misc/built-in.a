@@ -1,0 +1,13 @@
+!<thin>
+//                                              82        `
+sec_log.o/
+sec_bootstat.o/
+vbus_notifier.o/
+cable_type_notifier.o/
+sec_chipid.o/
+
+/0              0           0     0     644     158144    `
+/11             0           0     0     644     163360    `
+/27             0           0     0     644     53816     `
+/44             0           0     0     644     53848     `
+/67             0           0     0     644     132232    `

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/lens/mtk/sub2/built-in.a :=  rm -f drivers/misc/mediatek/lens/mtk/sub2/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/lens/mtk/sub2/built-in.a drivers/misc/mediatek/lens/mtk/sub2/sub2_lens.o

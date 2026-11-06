@@ -1,0 +1,42 @@
+!<thin>
+//                                              976       `
+mt65xx_lcm_list.o/
+lcm_common.o/
+lcm_gpio.o/
+lcm_i2c.o/
+lcm_pmic.o/
+lcm_util.o/
+mtk_lcd_gpio_ctrl.o/
+hx83102e_hlt_hsd_fhdplus2408/hx83102e_hlt_hsd_fhdplus2408.o/
+nt36523_liansi_hsd_incell_vdo/nt36523_liansi_hsd_incell_vdo.o/
+nt36523_liansi_hsd_ntfpc_incell_vdo/nt36523_liansi_hsd_ntfpc_incell_vdo.o/
+ili9881t_liansi_inx_incell_vdo/ili9881t_liansi_inx_incell_vdo.o/
+nt36523_hlt_mdt_incell_vdo/nt36523_hlt_mdt_incell_vdo.o/
+ft8201ab_dt_qunchuang_inx_vdo_fhdplus2408/ft8201ab_dt_qunchuang_inx_vdo_fhdplus2408.o/
+nt36523bh_qunchuang_inx_incell_vdo/nt36523bh_qunchuang_inx_incell_vdo.o/
+hx83102e_liansi_mdt_incell_vdo/hx83102e_liansi_mdt_incell_vdo.o/
+hx83102e_copper_hlt_hsd_fhdplus2408/hx83102e_copper_hlt_hsd_fhdplus2408.o/
+hx83102e_gx_hsd_incell_vdo/hx83102e_gx_hsd_incell_vdo.o/
+nt36523b_txd_mdt_incell_vdo/nt36523b_txd_mdt_incell_vdo.o/
+hx83102e_hy_mdt_incell_vdo/hx83102e_hy_mdt_incell_vdo.o/
+ft8201_lianchuang_boe_dsi_vdo_hdp_wxga/ft8201_lianchuang_boe_dsi_vdo_hdp_wxga.o/
+/0              0           0     0     644     34776     `
+/19             0           0     0     644     936       `
+/33             0           0     0     644     936       `
+/45             0           0     0     644     2712      `
+/56             0           0     0     644     22592     `
+/68             0           0     0     644     936       `
+/80             0           0     0     644     150800    `
+/101            0           0     0     644     55528     `
+/162            0           0     0     644     77440     `
+/225            0           0     0     644     77480     `
+/300            0           0     0     644     66080     `
+/365            0           0     0     644     75368     `
+/422            0           0     0     644     64728     `
+/509            0           0     0     644     52992     `
+/582            0           0     0     644     55912     `
+/647            0           0     0     644     55544     `
+/722            0           0     0     644     55480     `
+/779            0           0     0     644     77112     `
+/838            0           0     0     644     55872     `
+/895            0           0     0     644     58440     `

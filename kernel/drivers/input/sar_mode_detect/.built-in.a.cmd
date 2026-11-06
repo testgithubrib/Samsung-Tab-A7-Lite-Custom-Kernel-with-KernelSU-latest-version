@@ -1,0 +1,1 @@
+cmd_drivers/input/sar_mode_detect/built-in.a :=  rm -f drivers/input/sar_mode_detect/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/input/sar_mode_detect/built-in.a drivers/input/sar_mode_detect/sar_mode_detect.o

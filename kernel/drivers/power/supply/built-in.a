@@ -1,0 +1,49 @@
+!<thin>
+//                                              446       `
+mtk_battery_coulomb_service.o/
+mtk_battery.o/
+mtk_battery_algo.o/
+mt6357-gauge.o/
+mtk_battery_daemon.o/
+mt6357-charger-type.o/
+charger_class.o/
+mtk_basic_charger.o/
+mtk_charger.o/
+mtk_charger_algorithm_class.o/
+mtk_charger_intf.o/
+adapter_class.o/
+mtk_pd_adapter.o/
+mtk_pd.o/
+mtk_pd_hal.o/
+mtk_pulse_charger.o/
+afc_charger_intf.o/
+vbus_ctrl.o/
+battery_id_adc.o/
+power_supply_core.o/
+power_supply_sysfs.o/
+power_supply_leds.o/
+gxy_battery_ttf.o/
+
+/0              0           0     0     644     213504    `
+/31             0           0     0     644     655120    `
+/46             0           0     0     644     270752    `
+/66             0           0     0     644     519096    `
+/82             0           0     0     644     579368    `
+/104            0           0     0     644     180128    `
+/127            0           0     0     644     193016    `
+/144            0           0     0     644     261712    `
+/165            0           0     0     644     447200    `
+/180            0           0     0     644     89768     `
+/211            0           0     0     644     261272    `
+/231            0           0     0     644     78728     `
+/248            0           0     0     644     226328    `
+/266            0           0     0     644     280304    `
+/276            0           0     0     644     256704    `
+/290            0           0     0     644     254704    `
+/311            0           0     0     644     271936    `
+/331            0           0     0     644     158072    `
+/344            0           0     0     644     72336     `
+/362            0           0     0     644     214528    `
+/383            0           0     0     644     156840    `
+/405            0           0     0     644     98096     `
+/426            0           0     0     644     215632    `

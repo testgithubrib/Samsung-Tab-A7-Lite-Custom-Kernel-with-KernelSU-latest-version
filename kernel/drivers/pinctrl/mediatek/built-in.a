@@ -1,0 +1,17 @@
+!<thin>
+//                                              144       `
+mtk-eint.o/
+pinctrl-mtk-common.o/
+pinctrl-mtk-common-v2.o/
+pinctrl-paris.o/
+pinctrl-mtk-common-v2_debug.o/
+pinctrl-mt6765.o/
+pinctrl-mt6397.o/
+
+/0              0           0     0     644     172064    `
+/12             0           0     0     644     195008    `
+/34             0           0     0     644     225000    `
+/59             0           0     0     644     200976    `
+/76             0           0     0     644     179664    `
+/107            0           0     0     644     263968    `
+/125            0           0     0     644     156248    `

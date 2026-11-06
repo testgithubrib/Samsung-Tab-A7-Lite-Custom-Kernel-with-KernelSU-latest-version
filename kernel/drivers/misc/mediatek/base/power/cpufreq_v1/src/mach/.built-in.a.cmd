@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/base/power/cpufreq_v1/src/mach/built-in.a :=  rm -f drivers/misc/mediatek/base/power/cpufreq_v1/src/mach/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/base/power/cpufreq_v1/src/mach/built-in.a drivers/misc/mediatek/base/power/cpufreq_v1/src/mach/mt6765/built-in.a

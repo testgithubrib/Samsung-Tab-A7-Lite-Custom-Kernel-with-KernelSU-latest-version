@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/video/common/corr10/built-in.a :=  rm -f drivers/misc/mediatek/video/common/corr10/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/video/common/corr10/built-in.a drivers/misc/mediatek/video/common/corr10/ddp_dither.o drivers/misc/mediatek/video/common/corr10/ddp_gamma.o

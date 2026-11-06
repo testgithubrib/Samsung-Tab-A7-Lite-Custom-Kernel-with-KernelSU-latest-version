@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/monitor_hang/built-in.a :=  rm -f drivers/misc/mediatek/monitor_hang/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/monitor_hang/built-in.a drivers/misc/mediatek/monitor_hang/monitor_hang.o

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/imgsensor/src/mt6765/camera_hw/regulator/built-in.a :=  rm -f drivers/misc/mediatek/imgsensor/src/mt6765/camera_hw/regulator/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/imgsensor/src/mt6765/camera_hw/regulator/built-in.a drivers/misc/mediatek/imgsensor/src/mt6765/camera_hw/regulator/regulator.o

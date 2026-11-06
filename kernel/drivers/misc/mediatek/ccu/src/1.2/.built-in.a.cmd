@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/ccu/src/1.2/built-in.a :=  rm -f drivers/misc/mediatek/ccu/src/1.2/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/ccu/src/1.2/built-in.a drivers/misc/mediatek/ccu/src/1.2/ccu_drv.o drivers/misc/mediatek/ccu/src/1.2/ccu_n3d_a.o drivers/misc/mediatek/ccu/src/1.2/ccu_i2c.o

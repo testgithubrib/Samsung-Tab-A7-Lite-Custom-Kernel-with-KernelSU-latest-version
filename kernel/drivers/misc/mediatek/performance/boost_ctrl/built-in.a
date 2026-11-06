@@ -1,0 +1,17 @@
+!<thin>
+//                                              156       `
+boostctrl_main.o/
+dram_ctrl/dram_ctrl.o/
+cpu_ctrl/cpu_ctrl.o/
+cpu_ctrl/cpu_ctrl_cfp.o/
+eas_ctrl/eas_ctrl.o/
+eas_ctrl/uclamp_ctrl.o/
+topo_ctrl/topo_ctrl.o/
+
+/0              0           0     0     644     9472      `
+/18             0           0     0     644     148824    `
+/41             0           0     0     644     238120    `
+/62             0           0     0     644     234904    `
+/87             0           0     0     644     203056    `
+/108            0           0     0     644     238416    `
+/132            0           0     0     644     298744    `

@@ -1,0 +1,11 @@
+!<thin>
+//                                              88        `
+mtk-clkbuf-bridge.o/
+src/mtk-clkbuf-pmic.o/
+src/mtk-clkbuf-ctl.o/
+src/mtk-clkbuf-hw.o/
+
+/0              0           0     0     644     25968     `
+/21             0           0     0     644     156792    `
+/44             0           0     0     644     102792    `
+/66             0           0     0     644     180488    `

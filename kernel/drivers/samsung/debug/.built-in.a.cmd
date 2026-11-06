@@ -1,0 +1,1 @@
+cmd_drivers/samsung/debug/built-in.a :=  rm -f drivers/samsung/debug/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/samsung/debug/built-in.a drivers/samsung/debug/sec_debug.o drivers/samsung/debug/sec_debug_extra_info.o drivers/samsung/debug/sec_debug_hw_param.o drivers/samsung/debug/sec_debug_auto_comment.o

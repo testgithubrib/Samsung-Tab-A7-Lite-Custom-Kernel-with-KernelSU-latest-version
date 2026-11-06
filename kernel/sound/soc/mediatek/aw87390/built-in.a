@@ -1,0 +1,15 @@
+!<thin>
+//                                              104       `
+aw87xxx.o/
+aw87xxx_device.o/
+aw87xxx_monitor.o/
+aw87xxx_bin_parse.o/
+aw87xxx_dsp.o/
+aw87xxx_acf_bin.o/
+
+/0              0           0     0     644     328648    `
+/11             0           0     0     644     197816    `
+/29             0           0     0     644     324296    `
+/48             0           0     0     644     29832     `
+/69             0           0     0     644     12880     `
+/84             0           0     0     644     237128    `

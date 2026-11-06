@@ -1,0 +1,18 @@
+!<thin>
+//                                              168       `
+ComboA/mt6765/msdc_cust.o/
+ComboA/mt6765/autok_dvfs.o/
+ComboA/sd.o/
+ComboA/dbg.o/
+ComboA/msdc_tune.o/
+ComboA/autok.o/
+ComboA/mmc-sec-sysfs.o/
+ComboA/sw-cqhci-crypto.o/
+/0              0           0     0     644     311168    `
+/27             0           0     0     644     243032    `
+/55             0           0     0     644     532200    `
+/68             0           0     0     644     372312    `
+/82             0           0     0     644     238880    `
+/102            0           0     0     644     466984    `
+/118            0           0     0     644     192168    `
+/142            0           0     0     644     184616    `

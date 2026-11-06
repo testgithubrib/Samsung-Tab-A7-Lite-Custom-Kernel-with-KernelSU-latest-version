@@ -1,0 +1,23 @@
+!<thin>
+//                                              160       `
+sspm_common.o/
+sspm_mbox.o/
+sspm_sysfs.o/
+sspm_plt.o/
+sspm_ipi_mbox.o/
+sspm_reservedmem.o/
+sspm_emi_mpu.o/
+sspm_logger_impl.o/
+sspm_timesync.o/
+sspm_mt6765.o/
+
+/0              0           0     0     644     9832      `
+/15             0           0     0     644     105624    `
+/28             0           0     0     644     126144    `
+/42             0           0     0     644     189000    `
+/54             0           0     0     644     105936    `
+/71             0           0     0     644     197856    `
+/91             0           0     0     644     9224      `
+/107            0           0     0     644     187048    `
+/127            0           0     0     644     30928     `
+/144            0           0     0     644     201824    `

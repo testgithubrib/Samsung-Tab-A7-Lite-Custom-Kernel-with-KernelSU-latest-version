@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/video/common/layering_rule_base/built-in.a :=  rm -f drivers/misc/mediatek/video/common/layering_rule_base/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/video/common/layering_rule_base/built-in.a drivers/misc/mediatek/video/common/layering_rule_base/v1.1/built-in.a

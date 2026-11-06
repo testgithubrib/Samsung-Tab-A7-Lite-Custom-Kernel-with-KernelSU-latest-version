@@ -1,0 +1,53 @@
+!<thin>
+//                                              656       `
+reset/reboot-mode.o/
+reset/syscon-reboot-mode.o/
+supply/mtk_battery_coulomb_service.o/
+supply/mtk_battery.o/
+supply/mtk_battery_algo.o/
+supply/mt6357-gauge.o/
+supply/mtk_battery_daemon.o/
+supply/mt6357-charger-type.o/
+supply/charger_class.o/
+supply/mtk_basic_charger.o/
+supply/mtk_charger.o/
+supply/mtk_charger_algorithm_class.o/
+supply/mtk_charger_intf.o/
+supply/adapter_class.o/
+supply/mtk_pd_adapter.o/
+supply/mtk_pd.o/
+supply/mtk_pd_hal.o/
+supply/mtk_pulse_charger.o/
+supply/afc_charger_intf.o/
+supply/vbus_ctrl.o/
+supply/battery_id_adc.o/
+supply/power_supply_core.o/
+supply/power_supply_sysfs.o/
+supply/power_supply_leds.o/
+supply/gxy_battery_ttf.o/
+
+/0              0           0     0     644     63368     `
+/21             0           0     0     644     55872     `
+/49             0           0     0     644     213504    `
+/87             0           0     0     644     655120    `
+/109            0           0     0     644     270752    `
+/136            0           0     0     644     519096    `
+/159            0           0     0     644     579368    `
+/188            0           0     0     644     180128    `
+/218            0           0     0     644     193016    `
+/242            0           0     0     644     261712    `
+/270            0           0     0     644     447200    `
+/292            0           0     0     644     89768     `
+/330            0           0     0     644     261272    `
+/357            0           0     0     644     78728     `
+/381            0           0     0     644     226328    `
+/406            0           0     0     644     280304    `
+/423            0           0     0     644     256704    `
+/444            0           0     0     644     254704    `
+/472            0           0     0     644     271936    `
+/499            0           0     0     644     158072    `
+/519            0           0     0     644     72336     `
+/544            0           0     0     644     214528    `
+/572            0           0     0     644     156840    `
+/601            0           0     0     644     98096     `
+/629            0           0     0     644     215632    `

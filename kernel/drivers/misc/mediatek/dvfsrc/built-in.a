@@ -1,0 +1,26 @@
+!<thin>
+//                                              200       `
+dvfsrc.o/
+dvfsrc-common.o/
+dvfsrc-ipi.o/
+dvfsrc-debug.o/
+dvfsrc-debug-v79.o/
+dvfsrc-debug-v61.o/
+dvfsrc-sysfs.o/
+dvfsrc-met.o/
+dvfsrc-met-v79.o/
+dvfsrc-met-v61.o/
+dvfsrc-boost.o/
+dvfsrc-opp-mt6765.o/
+/0              0           0     0     644     173328    `
+/10             0           0     0     644     21520     `
+/27             0           0     0     644     85888     `
+/41             0           0     0     644     107992    `
+/57             0           0     0     644     124440    `
+/77             0           0     0     644     111592    `
+/97             0           0     0     644     61552     `
+/113            0           0     0     644     113240    `
+/127            0           0     0     644     98112     `
+/145            0           0     0     644     92208     `
+/163            0           0     0     644     61136     `
+/179            0           0     0     644     10976     `

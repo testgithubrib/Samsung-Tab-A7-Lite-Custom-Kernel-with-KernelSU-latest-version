@@ -1,0 +1,45 @@
+!<thin>
+//                                              650       `
+android/ashmem.o/
+android/alarm-dev.o/
+android/debug_kinfo.o/
+android/lmkd_debug.o/
+android/mtk_ion/ion.o/
+android/mtk_ion/ion-ioctl.o/
+android/mtk_ion/ion_heap.o/
+android/mtk_ion/ion_page_pool.o/
+android/mtk_ion/ion_system_heap.o/
+android/mtk_ion/ion_carveout_heap.o/
+android/mtk_ion/ion_chunk_heap.o/
+android/mtk_ion/ion_cma_heap.o/
+android/mtk_ion/compat_ion.o/
+android/mtk_ion/mtk/ion_drv.o/
+android/mtk_ion/mtk/ion_mm_heap.o/
+android/mtk_ion/mtk/ion_fb_heap.o/
+android/mtk_ion/mtk/ion_sec_heap.o/
+android/mtk_ion/mtk/ion_profile.o/
+android/mtk_ion/mtk/ion_dma_reserved_heap.o/
+android/mtk_ion/mtk/ion_history.o/
+android/mtk_ion/mtk/ion_comm.o/
+
+/0              0           0     0     644     211800    `
+/18             0           0     0     644     182672    `
+/39             0           0     0     644     143632    `
+/62             0           0     0     644     121368    `
+/84             0           0     0     644     315016    `
+/107            0           0     0     644     135464    `
+/136            0           0     0     644     167528    `
+/164            0           0     0     644     194704    `
+/197            0           0     0     644     166200    `
+/232            0           0     0     644     140608    `
+/269            0           0     0     644     140368    `
+/303            0           0     0     644     142856    `
+/335            0           0     0     644     615792    `
+/365            0           0     0     644     223064    `
+/396            0           0     0     644     269872    `
+/431            0           0     0     644     151592    `
+/466            0           0     0     644     198608    `
+/502            0           0     0     644     12448     `
+/537            0           0     0     644     151376    `
+/582            0           0     0     644     179280    `
+/617            0           0     0     644     145936    `

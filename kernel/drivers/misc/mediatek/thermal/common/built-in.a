@@ -1,0 +1,51 @@
+!<thin>
+//                                              680       `
+mtk_thermal_platform.o/
+ap_thermal_limit.o/
+thermal_zones/mtk_ts_battery.o/
+thermal_zones/mtk_ts_bts.o/
+thermal_zones/mtk_ts_btsmdpa.o/
+thermal_zones/mtk_ts_cpu_noBank.o/
+thermal_zones/mtk_ts_pa.o/
+thermal_zones/mtk_ts_pa_thput.o/
+thermal_zones/mtk_ts_pmic.o/
+thermal_zones/mtk_ts_usb.o/
+thermal_zones/mtk_ts_charger.o/
+thermal_zones/mtk_ts_charger2.o/
+thermal_zones/mtk_ts_wmt.o/
+thermal_zones/mtk_tsAll.o/
+thermal_zones/mtk_ts_imgsensor.o/
+coolers/mtk_ta.o/
+coolers/mtk_cooler_mutt.o/
+coolers/mtk_cooler_bcct_v1.o/
+coolers/mtk_cooler_bcct_2nd.o/
+coolers/mtk_cooler_atm.o/
+coolers/mtk_cooler_dtm.o/
+coolers/mtk_cooler_sysrst.o/
+coolers/mtk_cooler_VR_FPS.o/
+mtk_thermal_timer.o/
+
+/0              0           0     0     644     205824    `
+/24             0           0     0     644     36280     `
+/44             0           0     0     644     258216    `
+/76             0           0     0     644     250160    `
+/104            0           0     0     644     246288    `
+/136            0           0     0     644     292480    `
+/171            0           0     0     644     324152    `
+/198            0           0     0     644     231288    `
+/231            0           0     0     644     207784    `
+/260            0           0     0     644     204152    `
+/288            0           0     0     644     216712    `
+/320            0           0     0     644     214488    `
+/353            0           0     0     644     422152    `
+/381            0           0     0     644     346088    `
+/408            0           0     0     644     418736    `
+/442            0           0     0     644     332616    `
+/460            0           0     0     644     268032    `
+/487            0           0     0     644     309456    `
+/517            0           0     0     644     298736    `
+/548            0           0     0     644     365040    `
+/574            0           0     0     644     161016    `
+/600            0           0     0     644     157952    `
+/629            0           0     0     644     154072    `
+/658            0           0     0     644     21552     `

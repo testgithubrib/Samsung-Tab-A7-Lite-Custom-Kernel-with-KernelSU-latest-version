@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/lcm/hx83102e_copper_hlt_hsd_fhdplus2408/built-in.a :=  rm -f drivers/misc/mediatek/lcm/hx83102e_copper_hlt_hsd_fhdplus2408/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/lcm/hx83102e_copper_hlt_hsd_fhdplus2408/built-in.a drivers/misc/mediatek/lcm/hx83102e_copper_hlt_hsd_fhdplus2408/hx83102e_copper_hlt_hsd_fhdplus2408.o

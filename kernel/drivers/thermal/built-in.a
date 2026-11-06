@@ -1,0 +1,14 @@
+!<thin>
+//                                              104       `
+thermal_core.o/
+thermal_sysfs.o/
+thermal_helpers.o/
+of-thermal.o/
+backward_compatible.o/
+mtk_thermal.o/
+/0              0           0     0     644     393000    `
+/16             0           0     0     644     95864     `
+/33             0           0     0     644     95720     `
+/52             0           0     0     644     277784    `
+/66             0           0     0     644     54560     `
+/89             0           0     0     644     120456    `

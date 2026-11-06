@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/base/power/leakage_table_v2/built-in.a :=  rm -f drivers/misc/mediatek/base/power/leakage_table_v2/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/base/power/leakage_table_v2/built-in.a drivers/misc/mediatek/base/power/leakage_table_v2/mtk_static_power.o drivers/misc/mediatek/base/power/leakage_table_v2/mtk_static_power_mt6765.o

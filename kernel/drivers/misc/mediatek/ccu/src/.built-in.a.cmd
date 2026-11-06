@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/ccu/src/built-in.a :=  rm -f drivers/misc/mediatek/ccu/src/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/ccu/src/built-in.a drivers/misc/mediatek/ccu/src/mt6765/built-in.a drivers/misc/mediatek/ccu/src/1.2/built-in.a

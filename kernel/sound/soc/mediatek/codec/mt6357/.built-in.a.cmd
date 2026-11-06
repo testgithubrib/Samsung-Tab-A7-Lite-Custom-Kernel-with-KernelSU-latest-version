@@ -1,0 +1,1 @@
+cmd_sound/soc/mediatek/codec/mt6357/built-in.a :=  rm -f sound/soc/mediatek/codec/mt6357/built-in.a; aarch64-linux-gnu-ar rcSTPD sound/soc/mediatek/codec/mt6357/built-in.a sound/soc/mediatek/codec/mt6357/mtk-soc-codec-6357.o sound/soc/mediatek/codec/mt6357/mtk-auddrv-ana.o

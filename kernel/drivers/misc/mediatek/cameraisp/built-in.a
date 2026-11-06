@@ -1,0 +1,16 @@
+!<thin>
+//                                              162       `
+dip/cameradip_dummy.o/
+src/cameraisp_dummy.o/
+src/mt6765/camera_isp.o/
+dpe/cameradpe_dummy.o/
+dpe/mt6765/camera_dpe.o/
+fdvt/fdvt_dummy.o/
+fdvt/4.0/camera_fdvt.o/
+/0              0           0     0     644     936       `
+/23             0           0     0     644     936       `
+/46             0           0     0     644     1247232   `
+/71             0           0     0     644     936       `
+/94             0           0     0     644     696600    `
+/119            0           0     0     644     936       `
+/138            0           0     0     644     321480    `

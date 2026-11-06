@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/lens/mtk/main3/built-in.a :=  rm -f drivers/misc/mediatek/lens/mtk/main3/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/lens/mtk/main3/built-in.a drivers/misc/mediatek/lens/mtk/main3/main3_lens.o drivers/misc/mediatek/lens/mtk/main3/common/bu24253af/BU24253AF.o drivers/misc/mediatek/lens/mtk/main3/common/gt9772af/GT9772AF.o

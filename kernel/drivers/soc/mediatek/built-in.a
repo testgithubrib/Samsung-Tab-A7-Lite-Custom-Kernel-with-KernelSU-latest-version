@@ -1,0 +1,21 @@
+!<thin>
+//                                              152       `
+mtk-pm-qos.o/
+mtk-cmdq-helper.o/
+mtk-infracfg.o/
+mtk-scpsys-ext.o/
+mtk-dvfsrc.o/
+mtk-pmic-wrap.o/
+mtk-scpsys.o/
+devapc/mt6765/devapc.o/
+mtk-socinfo.o/
+
+/0              0           0     0     644     267808    `
+/14             0           0     0     644     374552    `
+/33             0           0     0     644     11352     `
+/49             0           0     0     644     17208     `
+/67             0           0     0     644     187424    `
+/81             0           0     0     644     353992    `
+/98             0           0     0     644     158296    `
+/112            0           0     0     644     240672    `
+/136            0           0     0     644     50848     `

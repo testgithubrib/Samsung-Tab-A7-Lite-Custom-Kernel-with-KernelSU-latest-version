@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/jpeg/v2/built-in.a :=  rm -f drivers/misc/mediatek/jpeg/v2/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/jpeg/v2/built-in.a drivers/misc/mediatek/jpeg/v2/jpeg_drv_enc.o drivers/misc/mediatek/jpeg/v2/jpeg_drv_dec.o drivers/misc/mediatek/jpeg/v2/jpeg_drv.o drivers/misc/mediatek/jpeg/v2/jpeg_ion.o

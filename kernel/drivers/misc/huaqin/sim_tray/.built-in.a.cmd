@@ -1,0 +1,1 @@
+cmd_drivers/misc/huaqin/sim_tray/built-in.a :=  rm -f drivers/misc/huaqin/sim_tray/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/huaqin/sim_tray/built-in.a drivers/misc/huaqin/sim_tray/sim_tray.o

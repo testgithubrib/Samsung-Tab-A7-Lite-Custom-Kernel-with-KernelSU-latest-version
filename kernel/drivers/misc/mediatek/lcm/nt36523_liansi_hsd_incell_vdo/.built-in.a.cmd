@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/lcm/nt36523_liansi_hsd_incell_vdo/built-in.a :=  rm -f drivers/misc/mediatek/lcm/nt36523_liansi_hsd_incell_vdo/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/lcm/nt36523_liansi_hsd_incell_vdo/built-in.a drivers/misc/mediatek/lcm/nt36523_liansi_hsd_incell_vdo/nt36523_liansi_hsd_incell_vdo.o

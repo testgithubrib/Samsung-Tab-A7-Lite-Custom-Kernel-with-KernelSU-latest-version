@@ -1,0 +1,1 @@
+cmd_drivers/soc/mediatek/devapc/mt6765/built-in.a :=  rm -f drivers/soc/mediatek/devapc/mt6765/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/soc/mediatek/devapc/mt6765/built-in.a drivers/soc/mediatek/devapc/mt6765/devapc.o

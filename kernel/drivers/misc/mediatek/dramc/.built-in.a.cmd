@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/dramc/built-in.a :=  rm -f drivers/misc/mediatek/dramc/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/dramc/built-in.a drivers/misc/mediatek/dramc/dramc.o drivers/misc/mediatek/dramc/mtk_lastdramc.o drivers/misc/mediatek/dramc/mtk_memtest.o drivers/misc/mediatek/dramc/mtk_rshmoo.o drivers/misc/mediatek/dramc/mt6765/built-in.a

@@ -1,0 +1,12 @@
+!<thin>
+//                                              84        `
+dmaengine.o/
+virt-dma.o/
+of-dma.o/
+mediatek/mtk-uart-apdma.o/
+mediatek/mtk-hsdma.o/
+/0              0           0     0     644     248640    `
+/13             0           0     0     644     157224    `
+/25             0           0     0     644     161760    `
+/35             0           0     0     644     205512    `
+/62             0           0     0     644     211616    `

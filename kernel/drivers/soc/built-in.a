@@ -1,0 +1,20 @@
+!<thin>
+//                                              232       `
+mediatek/mtk-pm-qos.o/
+mediatek/mtk-cmdq-helper.o/
+mediatek/mtk-infracfg.o/
+mediatek/mtk-scpsys-ext.o/
+mediatek/mtk-dvfsrc.o/
+mediatek/mtk-pmic-wrap.o/
+mediatek/mtk-scpsys.o/
+mediatek/devapc/mt6765/devapc.o/
+mediatek/mtk-socinfo.o/
+/0              0           0     0     644     267808    `
+/23             0           0     0     644     374552    `
+/51             0           0     0     644     11352     `
+/76             0           0     0     644     17208     `
+/103            0           0     0     644     187424    `
+/126            0           0     0     644     353992    `
+/152            0           0     0     644     158296    `
+/175            0           0     0     644     240672    `
+/208            0           0     0     644     50848     `

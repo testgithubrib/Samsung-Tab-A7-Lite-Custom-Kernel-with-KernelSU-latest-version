@@ -1,0 +1,30 @@
+!<thin>
+//                                              384       `
+perfmgr_main.o/
+base/utility.o/
+syslimiter/syslimiter.o/
+boost_ctrl/boostctrl_main.o/
+boost_ctrl/dram_ctrl/dram_ctrl.o/
+boost_ctrl/cpu_ctrl/cpu_ctrl.o/
+boost_ctrl/cpu_ctrl/cpu_ctrl_cfp.o/
+boost_ctrl/eas_ctrl/eas_ctrl.o/
+boost_ctrl/eas_ctrl/uclamp_ctrl.o/
+boost_ctrl/topo_ctrl/topo_ctrl.o/
+tchbst/tchbst_main.o/
+perf_ioctl/perf_ioctl.o/
+load_track/load_track.o/
+uload_ind/uload_ind.o/
+/0              0           0     0     644     178688    `
+/16             0           0     0     644     186240    `
+/32             0           0     0     644     211192    `
+/57             0           0     0     644     9472      `
+/86             0           0     0     644     148824    `
+/120            0           0     0     644     238120    `
+/152            0           0     0     644     234904    `
+/188            0           0     0     644     203056    `
+/220            0           0     0     644     238416    `
+/255            0           0     0     644     298744    `
+/289            0           0     0     644     8752      `
+/311            0           0     0     644     199912    `
+/336            0           0     0     644     74496     `
+/361            0           0     0     644     188920    `

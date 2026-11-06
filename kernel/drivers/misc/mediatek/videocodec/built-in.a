@@ -1,0 +1,12 @@
+!<thin>
+//                                              152       `
+videocodec_kernel.o/
+mt6765/videocodec_kernel_driver.o/
+mt6765/common/val/src/val.o/
+mt6765/common/drv/src/drv_base.o/
+mt6765/common/drv/src/dvfs_v2.o/
+/0              0           0     0     644     140808    `
+/21             0           0     0     644     858504    `
+/56             0           0     0     644     29736     `
+/85             0           0     0     644     150392    `
+/119            0           0     0     644     27528     `

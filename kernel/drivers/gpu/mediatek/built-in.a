@@ -1,0 +1,306 @@
+!<thin>
+//                                              9484      `
+hal/mtk_gpu_utility.o/
+gpufreq/mt6765/mtk_gpufreq_core.o/
+ged/src/ged_ski.o/
+ged/src/ged.o/
+ged/src/ged_base.o/
+ged/src/ged_main.o/
+ged/src/ged_sysfs.o/
+ged/src/ged_hal.o/
+ged/src/ged_log.o/
+ged/src/ged_bridge.o/
+ged/src/ged_monitor_3D_fence.o/
+ged/src/ged_notify_sw_vsync.o/
+ged/src/ged_hashtable.o/
+ged/src/ged_thread.o/
+ged/src/ged_ge.o/
+ged/src/ged_dvfs.o/
+ged/src/ged_gpu_tuner.o/
+ged/src/ged_kpi.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/cache_bridge/server_cache_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/cache_bridge/client_cache_direct_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/rgxta3d_bridge/server_rgxta3d_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/sync_bridge/client_sync_direct_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/sync_bridge/server_sync_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/synctracking_bridge/client_synctracking_direct_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/synctracking_bridge/server_synctracking_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/srvcore_bridge/server_srvcore_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/devicememhistory_bridge/client_devicememhistory_direct_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/devicememhistory_bridge/server_devicememhistory_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/rgxcmp_bridge/server_rgxcmp_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/rgxhwperf_bridge/server_rgxhwperf_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/rgxfwdbg_bridge/server_rgxfwdbg_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/rgxbreakpoint_bridge/server_rgxbreakpoint_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/rgxregconfig_bridge/server_rgxregconfig_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/htbuffer_bridge/client_htbuffer_direct_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/htbuffer_bridge/server_htbuffer_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/cmm_bridge/server_cmm_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/rgxtq_bridge/server_rgxtq_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/mm_bridge/client_mm_direct_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/mm_bridge/server_mm_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/rgxkicksync_bridge/server_rgxkicksync_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/pvrtl_bridge/server_pvrtl_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/pvrtl_bridge/client_pvrtl_direct_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/rgxsignals_bridge/server_rgxsignals_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/rgxtq2_bridge/server_rgxtq2_bridge.o/
+gpu_rgx/m1.13ED5776728/generated/rogue/dmabuf_bridge/server_dmabuf_bridge.o/
+gpu_rgx/m1.13ED5776728/services/system/rogue/rgx_mtk/ion_support.o/
+gpu_rgx/m1.13ED5776728/services/system/rogue/rgx_mtk/sysconfig.o/
+gpu_rgx/m1.13ED5776728/services/system/rogue/rgx_mtk/mt6765/mtk_mfgsys.o/
+gpu_rgx/m1.13ED5776728/services/system/rogue/rgx_mtk/mtk_pp.o/
+gpu_rgx/m1.13ED5776728/services/system/rogue/common/vmm_type_stub.o/
+gpu_rgx/m1.13ED5776728/services/system/rogue/common/env/linux/interrupt_support.o/
+gpu_rgx/m1.13ED5776728/services/system/rogue/common/env/linux/dma_support.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rgxtimecorr.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rgxfwdbg.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rgxshader.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rgxfwtrace_strings.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxutils.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxhwperf.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxfwimageutils.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxfwutils.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxmem.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxccb.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxmmuinit.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxtransfer.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxbreakpoint.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxmipsmmuinit.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxinit.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxsignals.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxlayer_impl.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxtdmtransfer.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxbvnc.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxdebug.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxta3d.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxkicksync.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxsrvinit.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxregconfig.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxcompute.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxstartstop.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxpower.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxsyncutils.o/
+gpu_rgx/m1.13ED5776728/services/server/devices/rogue/rgxmulticore.o/
+gpu_rgx/m1.13ED5776728/services/server/common/tlstream.o/
+gpu_rgx/m1.13ED5776728/services/server/common/pvrsrv_pool.o/
+gpu_rgx/m1.13ED5776728/services/server/common/cache_km.o/
+gpu_rgx/m1.13ED5776728/services/server/common/htbserver.o/
+gpu_rgx/m1.13ED5776728/services/server/common/tlintern.o/
+gpu_rgx/m1.13ED5776728/services/server/common/pvr_notifier.o/
+gpu_rgx/m1.13ED5776728/services/server/common/devicemem_history_server.o/
+gpu_rgx/m1.13ED5776728/services/server/common/physmem.o/
+gpu_rgx/m1.13ED5776728/services/server/common/tlserver.o/
+gpu_rgx/m1.13ED5776728/services/server/common/physheap.o/
+gpu_rgx/m1.13ED5776728/services/server/common/handle.o/
+gpu_rgx/m1.13ED5776728/services/server/common/devicemem_heapcfg.o/
+gpu_rgx/m1.13ED5776728/services/server/common/sync_server.o/
+gpu_rgx/m1.13ED5776728/services/server/common/sync_checkpoint.o/
+gpu_rgx/m1.13ED5776728/services/server/common/lists.o/
+gpu_rgx/m1.13ED5776728/services/server/common/info_page_km.o/
+gpu_rgx/m1.13ED5776728/services/server/common/physmem_lma.o/
+gpu_rgx/m1.13ED5776728/services/server/common/process_stats.o/
+gpu_rgx/m1.13ED5776728/services/server/common/connection_server.o/
+gpu_rgx/m1.13ED5776728/services/server/common/pmr.o/
+gpu_rgx/m1.13ED5776728/services/server/common/pvrsrv_bridge_init.o/
+gpu_rgx/m1.13ED5776728/services/server/common/mmu_common.o/
+gpu_rgx/m1.13ED5776728/services/server/common/devicemem_server.o/
+gpu_rgx/m1.13ED5776728/services/server/common/power.o/
+gpu_rgx/m1.13ED5776728/services/server/common/physmem_hostmem.o/
+gpu_rgx/m1.13ED5776728/services/server/common/pvrsrv.o/
+gpu_rgx/m1.13ED5776728/services/server/common/srvcore.o/
+gpu_rgx/m1.13ED5776728/services/server/common/vz_vmm_pvz.o/
+gpu_rgx/m1.13ED5776728/services/server/common/vz_vmm_vm.o/
+gpu_rgx/m1.13ED5776728/services/server/common/vmm_pvz_client.o/
+gpu_rgx/m1.13ED5776728/services/server/common/vmm_pvz_server.o/
+gpu_rgx/m1.13ED5776728/services/server/common/htb_debug.o/
+gpu_rgx/m1.13ED5776728/services/server/common/di_server.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/km_apphint.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/osmmap_stub.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/physmem_test.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/allocmem.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/pvr_bridge_k.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/physmem_dmabuf.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/pvr_debugfs.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/osconnection_server.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/handle_idr.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/event.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/fwload.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/pmr_os.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/module_common.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/physmem_osmem_linux.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/osfunc.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/pvr_gputrace.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/pvr_debug.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/pvr_procfs.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/pvr_ion_stats.o/
+gpu_rgx/m1.13ED5776728/services/shared/devices/rogue/rgx_hwperf_table.o/
+gpu_rgx/m1.13ED5776728/services/shared/common/devicemem_utils.o/
+gpu_rgx/m1.13ED5776728/services/shared/common/hash.o/
+gpu_rgx/m1.13ED5776728/services/shared/common/ra.o/
+gpu_rgx/m1.13ED5776728/services/shared/common/sync.o/
+gpu_rgx/m1.13ED5776728/services/shared/common/uniq_key_splay_tree.o/
+gpu_rgx/m1.13ED5776728/services/shared/common/tlclient.o/
+gpu_rgx/m1.13ED5776728/services/shared/common/devicemem.o/
+gpu_rgx/m1.13ED5776728/services/shared/common/htbuffer.o/
+gpu_rgx/m1.13ED5776728/services/shared/common/mem_utils.o/
+gpu_rgx/m1.13ED5776728/services/shared/common/pvrsrv_error.o/
+gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/pvr_drm.o/
+gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/pvr_platform_drv.o/
+gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/pvr_sync_file.o/
+gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/pvr_counting_timeline.o/
+gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/pvr_sw_fence.o/
+gpu_rgx/m1.13ED5776728/kernel/drivers/staging/imgtec/pvr_fence.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/osfunc_arm64.o/
+gpu_rgx/m1.13ED5776728/services/server/env/linux/trace_events.o/
+/0              0           0     0     644     199648    `
+/23             0           0     0     644     353640    `
+/58             0           0     0     644     42272     `
+/77             0           0     0     644     12744     `
+/92             0           0     0     644     58560     `
+/112            0           0     0     644     166936    `
+/132            0           0     0     644     23936     `
+/153            0           0     0     644     193632    `
+/172            0           0     0     644     236776    `
+/191            0           0     0     644     46776     `
+/213            0           0     0     644     46944     `
+/245            0           0     0     644     49008     `
+/276            0           0     0     644     23144     `
+/301            0           0     0     644     41880     `
+/323            0           0     0     644     128464    `
+/341            0           0     0     644     186080    `
+/361            0           0     0     644     69800     `
+/386            0           0     0     644     168824    `
+/405            0           0     0     644     118360    `
+/480            0           0     0     644     103848    `
+/562            0           0     0     644     225536    `
+/641            0           0     0     644     108272    `
+/721            0           0     0     644     124376    `
+/794            0           0     0     644     102624    `
+/890            0           0     0     644     114952    `
+/979            0           0     0     644     155608    `
+/1058           0           0     0     644     37648     `
+/1162           0           0     0     644     64008     `
+/1259           0           0     0     644     143440    `
+/1336           0           0     0     644     118400    `
+/1419           0           0     0     644     116520    `
+/1500           0           0     0     644     122976    `
+/1591           0           0     0     644     115168    `
+/1680           0           0     0     644     36136     `
+/1768           0           0     0     644     52544     `
+/1849           0           0     0     644     54576     `
+/1920           0           0     0     644     139968    `
+/1995           0           0     0     644     147208    `
+/2071           0           0     0     644     258824    `
+/2140           0           0     0     644     125056    `
+/2227           0           0     0     644     135200    `
+/2302           0           0     0     644     109736    `
+/2384           0           0     0     644     108824    `
+/2469           0           0     0     644     145800    `
+/2546           0           0     0     644     188200    `
+/2623           0           0     0     644     30416     `
+/2691           0           0     0     644     144560    `
+/2757           0           0     0     644     186712    `
+/2831           0           0     0     644     123808    `
+/2894           0           0     0     644     36432     `
+/2963           0           0     0     644     36576     `
+/3046           0           0     0     644     202016    `
+/3123           0           0     0     644     166216    `
+/3185           0           0     0     644     164320    `
+/3244           0           0     0     644     142824    `
+/3304           0           0     0     644     98776     `
+/3373           0           0     0     644     155096    `
+/3438           0           0     0     644     319328    `
+/3504           0           0     0     644     66672     `
+/3576           0           0     0     644     351376    `
+/3643           0           0     0     644     179512    `
+/3706           0           0     0     644     226872    `
+/3769           0           0     0     644     119744    `
+/3836           0           0     0     644     208560    `
+/3904           0           0     0     644     161168    `
+/3974           0           0     0     644     147168    `
+/4045           0           0     0     644     390856    `
+/4109           0           0     0     644     150416    `
+/4176           0           0     0     644     177376    `
+/4246           0           0     0     644     194448    `
+/4317           0           0     0     644     174392    `
+/4381           0           0     0     644     828704    `
+/4446           0           0     0     644     330768    `
+/4510           0           0     0     644     180608    `
+/4578           0           0     0     644     166984    `
+/4645           0           0     0     644     107640    `
+/4714           0           0     0     644     203576    `
+/4781           0           0     0     644     161032    `
+/4850           0           0     0     644     182368    `
+/4915           0           0     0     644     34848     `
+/4984           0           0     0     644     134352    `
+/5053           0           0     0     644     155168    `
+/5111           0           0     0     644     43128     `
+/5172           0           0     0     644     297408    `
+/5230           0           0     0     644     143840    `
+/5289           0           0     0     644     115896    `
+/5347           0           0     0     644     143640    `
+/5409           0           0     0     644     88272     `
+/5483           0           0     0     644     133304    `
+/5540           0           0     0     644     127080    `
+/5598           0           0     0     644     47608     `
+/5656           0           0     0     644     197784    `
+/5712           0           0     0     644     103888    `
+/5779           0           0     0     644     187952    `
+/5840           0           0     0     644     258448    `
+/5905           0           0     0     644     65280     `
+/5960           0           0     0     644     112552    `
+/6022           0           0     0     644     155032    `
+/6083           0           0     0     644     196280    `
+/6146           0           0     0     644     127160    `
+/6213           0           0     0     644     212328    `
+/6266           0           0     0     644     58440     `
+/6334           0           0     0     644     247768    `
+/6394           0           0     0     644     223464    `
+/6460           0           0     0     644     141040    `
+/6515           0           0     0     644     39568     `
+/6580           0           0     0     644     299552    `
+/6636           0           0     0     644     179712    `
+/6693           0           0     0     644     108848    `
+/6753           0           0     0     644     141768    `
+/6812           0           0     0     644     111976    `
+/6876           0           0     0     644     150760    `
+/6940           0           0     0     644     139344    `
+/6999           0           0     0     644     65712     `
+/7058           0           0     0     644     216056    `
+/7121           0           0     0     644     34744     `
+/7185           0           0     0     644     137088    `
+/7250           0           0     0     644     23976     `
+/7311           0           0     0     644     260272    `
+/7376           0           0     0     644     223120    `
+/7443           0           0     0     644     146648    `
+/7507           0           0     0     644     103640    `
+/7579           0           0     0     644     88576     `
+/7642           0           0     0     644     199536    `
+/7700           0           0     0     644     62696     `
+/7759           0           0     0     644     186504    `
+/7818           0           0     0     644     259984    `
+/7884           0           0     0     644     305392    `
+/7956           0           0     0     644     302312    `
+/8015           0           0     0     644     467008    `
+/8080           0           0     0     644     205624    `
+/8142           0           0     0     644     175024    `
+/8205           0           0     0     644     177568    `
+/8271           0           0     0     644     140360    `
+/8344           0           0     0     644     147280    `
+/8409           0           0     0     644     122608    `
+/8463           0           0     0     644     65976     `
+/8515           0           0     0     644     138800    `
+/8569           0           0     0     644     11160     `
+/8638           0           0     0     644     121512    `
+/8696           0           0     0     644     194552    `
+/8755           0           0     0     644     39736     `
+/8813           0           0     0     644     9968      `
+/8872           0           0     0     644     71624     `
+/8934           0           0     0     644     214256    `
+/8998           0           0     0     644     237400    `
+/9071           0           0     0     644     258736    `
+/9141           0           0     0     644     56136     `
+/9219           0           0     0     644     26968     `
+/9288           0           0     0     644     342496    `
+/9354           0           0     0     644     193712    `
+/9419           0           0     0     644     68744     `

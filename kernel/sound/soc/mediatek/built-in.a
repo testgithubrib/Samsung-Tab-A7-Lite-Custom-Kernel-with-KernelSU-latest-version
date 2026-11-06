@@ -1,0 +1,103 @@
+!<thin>
+//                                              1640      `
+common/mtk-btcvsd.o/
+aw87390/aw87xxx.o/
+aw87390/aw87xxx_device.o/
+aw87390/aw87xxx_monitor.o/
+aw87390/aw87xxx_bin_parse.o/
+aw87390/aw87xxx_dsp.o/
+aw87390/aw87xxx_acf_bin.o/
+codec/mt6357/mtk-soc-codec-6357.o/
+codec/mt6357/mtk-auddrv-ana.o/
+common_int/mtk-auddrv-devtree-parser.o/
+common_int/mtk-soc-speaker-amp.o/
+common_int/mtk-auddrv-afe.o/
+common_int/mtk-auddrv-gpio.o/
+common_int/mtk-soc-afe-control.o/
+common_int/mtk-soc-pcm-common.o/
+common_int/mtk-soc-pcm-capture.o/
+common_int/mtk-soc-pcm-dl1.o/
+common_int/mtk-soc-pcm-dummy.o/
+common_int/mtk-soc-pcm-routing.o/
+common_int/mtk-soc-pcm-capture2.o/
+common_int/mtk-soc-pcm-i2s2-adc2.o/
+common_int/mtk-soc-pcm-voice-md1.o/
+common_int/mtk-soc-pcm-voice-md2.o/
+common_int/mtk-soc-pcm-voice-md1-bt.o/
+common_int/mtk-soc-pcm-voice-md2-bt.o/
+common_int/mtk-soc-pcm-voice-usb.o/
+common_int/mtk-soc-pcm-voice-usb-echoref.o/
+common_int/mtk-soc-pcm-dl1-i2s0.o/
+common_int/mtk-soc-pcm-dl1-i2s0Dl1.o/
+common_int/mtk-soc-pcm-i2s0-awb.o/
+common_int/mtk-soc-pcm-uldlloopback.o/
+common_int/mtk-soc-pcm-dl2.o/
+common_int/mtk-soc-pcm-deep-buffer-dl.o/
+common_int/mtk-soc-pcm-mrgrx.o/
+common_int/mtk-soc-pcm-mrgrx-awb.o/
+common_int/mtk-soc-pcm-fm-i2s.o/
+common_int/mtk-soc-pcm-fm-i2s-awb.o/
+common_int/mtk-soc-pcm-dl1-awb.o/
+common_int/mtk-soc-pcm-dl1-bt.o/
+common_int/mtk-soc-pcm-bt-dai.o/
+common_int/mtk-soc-dai-stub.o/
+common_int/mtk-soc-dai-routing.o/
+common_int/mtk-soc-codec-dummy.o/
+common_int/mtk-soc-pcm-fmtx.o/
+common_int/mtk-soc-tdm-capture.o/
+common_int/mtk-soc-pcm-hp-impedance.o/
+common_int/mtk-soc-machine.o/
+mt6765/mtk-auddrv-clk.o/
+mt6765/mtk-soc-afe-connection.o/
+mt6765/mt6765-sound.o/
+
+/0              0           0     0     644     276064    `
+/21             0           0     0     644     328648    `
+/40             0           0     0     644     197816    `
+/66             0           0     0     644     324296    `
+/93             0           0     0     644     29832     `
+/122            0           0     0     644     12880     `
+/145            0           0     0     644     237128    `
+/172            0           0     0     644     576232    `
+/207            0           0     0     644     269448    `
+/238            0           0     0     644     179736    `
+/278            0           0     0     644     203992    `
+/312            0           0     0     644     174600    `
+/341            0           0     0     644     164392    `
+/371            0           0     0     644     468136    `
+/405            0           0     0     644     165760    `
+/438            0           0     0     644     262896    `
+/472            0           0     0     644     255720    `
+/502            0           0     0     644     216672    `
+/534            0           0     0     644     302608    `
+/568            0           0     0     644     243696    `
+/603            0           0     0     644     242280    `
+/639            0           0     0     644     249840    `
+/675            0           0     0     644     237096    `
+/711            0           0     0     644     236160    `
+/750            0           0     0     644     237624    `
+/789            0           0     0     644     285808    `
+/825            0           0     0     644     249008    `
+/869            0           0     0     644     266592    `
+/904            0           0     0     644     274224    `
+/942            0           0     0     644     243408    `
+/977            0           0     0     644     247832    `
+/1016           0           0     0     644     284240    `
+/1046           0           0     0     644     275232    `
+/1087           0           0     0     644     244256    `
+/1119           0           0     0     644     248312    `
+/1155           0           0     0     644     239712    `
+/1188           0           0     0     644     250848    `
+/1225           0           0     0     644     241016    `
+/1259           0           0     0     644     245728    `
+/1292           0           0     0     644     254368    `
+/1325           0           0     0     644     245816    `
+/1356           0           0     0     644     203072    `
+/1390           0           0     0     644     222288    `
+/1424           0           0     0     644     243296    `
+/1455           0           0     0     644     249488    `
+/1489           0           0     0     644     229904    `
+/1528           0           0     0     644     240184    `
+/1558           0           0     0     644     238888    `
+/1583           0           0     0     644     75856     `
+/1616           0           0     0     644     247352    `

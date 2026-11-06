@@ -1,0 +1,1 @@
+cmd_kernel/sched/extension/built-in.a :=  rm -f kernel/sched/extension/built-in.a; aarch64-linux-gnu-ar rcSTPD kernel/sched/extension/built-in.a kernel/sched/extension/eas_plus.o kernel/sched/extension/debug.o kernel/sched/extension/tuning.o kernel/sched/extension/debug_aee.o

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/videocodec/built-in.a :=  rm -f drivers/misc/mediatek/videocodec/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/videocodec/built-in.a drivers/misc/mediatek/videocodec/videocodec_kernel.o drivers/misc/mediatek/videocodec/mt6765/built-in.a

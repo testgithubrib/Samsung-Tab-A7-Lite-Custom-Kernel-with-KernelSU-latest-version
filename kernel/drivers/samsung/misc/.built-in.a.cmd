@@ -1,0 +1,1 @@
+cmd_drivers/samsung/misc/built-in.a :=  rm -f drivers/samsung/misc/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/samsung/misc/built-in.a drivers/samsung/misc/sec_log.o drivers/samsung/misc/sec_bootstat.o drivers/samsung/misc/vbus_notifier.o drivers/samsung/misc/cable_type_notifier.o drivers/samsung/misc/sec_chipid.o

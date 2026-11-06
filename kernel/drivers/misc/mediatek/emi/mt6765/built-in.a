@@ -1,0 +1,19 @@
+!<thin>
+//                                              166       `
+bwl_platform.o/
+mpu_platform.o/
+plat_debug_api.o/
+../emi_ctrl_v1.o/
+../submodule/bwl_v1.o/
+../submodule/mpu_v1.o/
+../submodule/elm_v2.o/
+../submodule/pasr_api_v1.o/
+
+/0              0           0     0     644     16968     `
+/16             0           0     0     644     6432      `
+/32             0           0     0     644     5344      `
+/50             0           0     0     644     166544    `
+/68             0           0     0     644     143496    `
+/91             0           0     0     644     224944    `
+/114            0           0     0     644     151672    `
+/137            0           0     0     644     8328      `

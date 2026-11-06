@@ -1,0 +1,38 @@
+!<thin>
+//                                              526       `
+src/mtk_ppm_main.o/
+src/mtk_ppm_interface.o/
+src/mtk_ppm_api.o/
+src/mtk_ppm_profile.o/
+src/mtk_ppm_ipi.o/
+src/mtk_ppm_policy_dlpt.o/
+src/mtk_ppm_policy_sys_boost.o/
+src/mtk_ppm_policy_ptpod.o/
+src/mtk_ppm_policy_pwr_thro.o/
+src/mtk_ppm_policy_thermal.o/
+src/mtk_ppm_policy_lcm_off.o/
+src/mtk_ppm_policy_hard_user_limit.o/
+src/mtk_ppm_policy_user_limit.o/
+src/mtk_ppm_policy_force_limit.o/
+src/mtk_ppm_policy_ut.o/
+src/mach/mt6765/mtk_ppm_platform.o/
+src/mach/mt6765/mtk_ppm_power_data.o/
+src/mach/mt6765/mtk_ppm_cobra_algo.o/
+/0              0           0     0     644     267480    `
+/20             0           0     0     644     163080    `
+/45             0           0     0     644     131304    `
+/64             0           0     0     644     126144    `
+/87             0           0     0     644     5600      `
+/106            0           0     0     644     137424    `
+/133            0           0     0     644     176688    `
+/165            0           0     0     644     129872    `
+/193            0           0     0     644     30504     `
+/224            0           0     0     644     136840    `
+/254            0           0     0     644     168936    `
+/284            0           0     0     644     167184    `
+/322            0           0     0     644     166784    `
+/355            0           0     0     644     134904    `
+/389            0           0     0     644     137184    `
+/414            0           0     0     644     41288     `
+/450            0           0     0     644     11288     `
+/488            0           0     0     644     139344    `

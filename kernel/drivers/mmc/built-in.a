@@ -1,0 +1,56 @@
+!<thin>
+//                                              564       `
+core/core.o/
+core/bus.o/
+core/host.o/
+core/mmc.o/
+core/mmc_ops.o/
+core/sd.o/
+core/sd_ops.o/
+core/sdio.o/
+core/sdio_ops.o/
+core/sdio_bus.o/
+core/sdio_cis.o/
+core/sdio_io.o/
+core/sdio_irq.o/
+core/slot-gpio.o/
+core/pwrseq.o/
+core/block.o/
+core/queue.o/
+core/mmc_crypto.o/
+core/crypto.o/
+host/mediatek/ComboA/mt6765/msdc_cust.o/
+host/mediatek/ComboA/mt6765/autok_dvfs.o/
+host/mediatek/ComboA/sd.o/
+host/mediatek/ComboA/dbg.o/
+host/mediatek/ComboA/msdc_tune.o/
+host/mediatek/ComboA/autok.o/
+host/mediatek/ComboA/mmc-sec-sysfs.o/
+host/mediatek/ComboA/sw-cqhci-crypto.o/
+/0              0           0     0     644     548992    `
+/13             0           0     0     644     206400    `
+/25             0           0     0     644     240200    `
+/38             0           0     0     644     281712    `
+/50             0           0     0     644     244344    `
+/66             0           0     0     644     241632    `
+/77             0           0     0     644     194424    `
+/92             0           0     0     644     229136    `
+/105            0           0     0     644     187312    `
+/122            0           0     0     644     207112    `
+/139            0           0     0     644     102872    `
+/156            0           0     0     644     241040    `
+/172            0           0     0     644     205928    `
+/189            0           0     0     644     188976    `
+/207            0           0     0     644     107568    `
+/222            0           0     0     644     376432    `
+/236            0           0     0     644     247608    `
+/250            0           0     0     644     198784    `
+/269            0           0     0     644     188752    `
+/284            0           0     0     644     311168    `
+/325            0           0     0     644     243032    `
+/367            0           0     0     644     532200    `
+/394            0           0     0     644     372312    `
+/422            0           0     0     644     238880    `
+/456            0           0     0     644     466984    `
+/486            0           0     0     644     192168    `
+/524            0           0     0     644     184616    `

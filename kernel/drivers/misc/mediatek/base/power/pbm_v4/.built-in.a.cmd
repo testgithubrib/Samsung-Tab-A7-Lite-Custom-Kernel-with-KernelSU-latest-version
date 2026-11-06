@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/base/power/pbm_v4/built-in.a :=  rm -f drivers/misc/mediatek/base/power/pbm_v4/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/base/power/pbm_v4/built-in.a drivers/misc/mediatek/base/power/pbm_v4/mtk_pbm.o

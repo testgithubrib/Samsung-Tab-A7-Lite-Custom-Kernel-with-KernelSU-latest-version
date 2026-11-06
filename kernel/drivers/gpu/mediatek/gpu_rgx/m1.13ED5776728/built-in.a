@@ -1,0 +1,271 @@
+!<thin>
+//                                              5998      `
+generated/rogue/cache_bridge/server_cache_bridge.o/
+generated/rogue/cache_bridge/client_cache_direct_bridge.o/
+generated/rogue/rgxta3d_bridge/server_rgxta3d_bridge.o/
+generated/rogue/sync_bridge/client_sync_direct_bridge.o/
+generated/rogue/sync_bridge/server_sync_bridge.o/
+generated/rogue/synctracking_bridge/client_synctracking_direct_bridge.o/
+generated/rogue/synctracking_bridge/server_synctracking_bridge.o/
+generated/rogue/srvcore_bridge/server_srvcore_bridge.o/
+generated/rogue/devicememhistory_bridge/client_devicememhistory_direct_bridge.o/
+generated/rogue/devicememhistory_bridge/server_devicememhistory_bridge.o/
+generated/rogue/rgxcmp_bridge/server_rgxcmp_bridge.o/
+generated/rogue/rgxhwperf_bridge/server_rgxhwperf_bridge.o/
+generated/rogue/rgxfwdbg_bridge/server_rgxfwdbg_bridge.o/
+generated/rogue/rgxbreakpoint_bridge/server_rgxbreakpoint_bridge.o/
+generated/rogue/rgxregconfig_bridge/server_rgxregconfig_bridge.o/
+generated/rogue/htbuffer_bridge/client_htbuffer_direct_bridge.o/
+generated/rogue/htbuffer_bridge/server_htbuffer_bridge.o/
+generated/rogue/cmm_bridge/server_cmm_bridge.o/
+generated/rogue/rgxtq_bridge/server_rgxtq_bridge.o/
+generated/rogue/mm_bridge/client_mm_direct_bridge.o/
+generated/rogue/mm_bridge/server_mm_bridge.o/
+generated/rogue/rgxkicksync_bridge/server_rgxkicksync_bridge.o/
+generated/rogue/pvrtl_bridge/server_pvrtl_bridge.o/
+generated/rogue/pvrtl_bridge/client_pvrtl_direct_bridge.o/
+generated/rogue/rgxsignals_bridge/server_rgxsignals_bridge.o/
+generated/rogue/rgxtq2_bridge/server_rgxtq2_bridge.o/
+generated/rogue/dmabuf_bridge/server_dmabuf_bridge.o/
+services/system/rogue/rgx_mtk/ion_support.o/
+services/system/rogue/rgx_mtk/sysconfig.o/
+services/system/rogue/rgx_mtk/mt6765/mtk_mfgsys.o/
+services/system/rogue/rgx_mtk/mtk_pp.o/
+services/system/rogue/common/vmm_type_stub.o/
+services/system/rogue/common/env/linux/interrupt_support.o/
+services/system/rogue/common/env/linux/dma_support.o/
+services/server/devices/rgxtimecorr.o/
+services/server/devices/rgxfwdbg.o/
+services/server/devices/rgxshader.o/
+services/server/devices/rgxfwtrace_strings.o/
+services/server/devices/rogue/rgxutils.o/
+services/server/devices/rogue/rgxhwperf.o/
+services/server/devices/rogue/rgxfwimageutils.o/
+services/server/devices/rogue/rgxfwutils.o/
+services/server/devices/rogue/rgxmem.o/
+services/server/devices/rogue/rgxccb.o/
+services/server/devices/rogue/rgxmmuinit.o/
+services/server/devices/rogue/rgxtransfer.o/
+services/server/devices/rogue/rgxbreakpoint.o/
+services/server/devices/rogue/rgxmipsmmuinit.o/
+services/server/devices/rogue/rgxinit.o/
+services/server/devices/rogue/rgxsignals.o/
+services/server/devices/rogue/rgxlayer_impl.o/
+services/server/devices/rogue/rgxtdmtransfer.o/
+services/server/devices/rogue/rgxbvnc.o/
+services/server/devices/rogue/rgxdebug.o/
+services/server/devices/rogue/rgxta3d.o/
+services/server/devices/rogue/rgxkicksync.o/
+services/server/devices/rogue/rgxsrvinit.o/
+services/server/devices/rogue/rgxregconfig.o/
+services/server/devices/rogue/rgxcompute.o/
+services/server/devices/rogue/rgxstartstop.o/
+services/server/devices/rogue/rgxpower.o/
+services/server/devices/rogue/rgxsyncutils.o/
+services/server/devices/rogue/rgxmulticore.o/
+services/server/common/tlstream.o/
+services/server/common/pvrsrv_pool.o/
+services/server/common/cache_km.o/
+services/server/common/htbserver.o/
+services/server/common/tlintern.o/
+services/server/common/pvr_notifier.o/
+services/server/common/devicemem_history_server.o/
+services/server/common/physmem.o/
+services/server/common/tlserver.o/
+services/server/common/physheap.o/
+services/server/common/handle.o/
+services/server/common/devicemem_heapcfg.o/
+services/server/common/sync_server.o/
+services/server/common/sync_checkpoint.o/
+services/server/common/lists.o/
+services/server/common/info_page_km.o/
+services/server/common/physmem_lma.o/
+services/server/common/process_stats.o/
+services/server/common/connection_server.o/
+services/server/common/pmr.o/
+services/server/common/pvrsrv_bridge_init.o/
+services/server/common/mmu_common.o/
+services/server/common/devicemem_server.o/
+services/server/common/power.o/
+services/server/common/physmem_hostmem.o/
+services/server/common/pvrsrv.o/
+services/server/common/srvcore.o/
+services/server/common/vz_vmm_pvz.o/
+services/server/common/vz_vmm_vm.o/
+services/server/common/vmm_pvz_client.o/
+services/server/common/vmm_pvz_server.o/
+services/server/common/htb_debug.o/
+services/server/common/di_server.o/
+services/server/env/linux/km_apphint.o/
+services/server/env/linux/osmmap_stub.o/
+services/server/env/linux/physmem_test.o/
+services/server/env/linux/allocmem.o/
+services/server/env/linux/pvr_bridge_k.o/
+services/server/env/linux/physmem_dmabuf.o/
+services/server/env/linux/pvr_debugfs.o/
+services/server/env/linux/osconnection_server.o/
+services/server/env/linux/handle_idr.o/
+services/server/env/linux/event.o/
+services/server/env/linux/fwload.o/
+services/server/env/linux/pmr_os.o/
+services/server/env/linux/module_common.o/
+services/server/env/linux/physmem_osmem_linux.o/
+services/server/env/linux/osfunc.o/
+services/server/env/linux/pvr_gputrace.o/
+services/server/env/linux/pvr_debug.o/
+services/server/env/linux/pvr_procfs.o/
+services/server/env/linux/pvr_ion_stats.o/
+services/shared/devices/rogue/rgx_hwperf_table.o/
+services/shared/common/devicemem_utils.o/
+services/shared/common/hash.o/
+services/shared/common/ra.o/
+services/shared/common/sync.o/
+services/shared/common/uniq_key_splay_tree.o/
+services/shared/common/tlclient.o/
+services/shared/common/devicemem.o/
+services/shared/common/htbuffer.o/
+services/shared/common/mem_utils.o/
+services/shared/common/pvrsrv_error.o/
+kernel/drivers/staging/imgtec/pvr_drm.o/
+kernel/drivers/staging/imgtec/pvr_platform_drv.o/
+kernel/drivers/staging/imgtec/pvr_sync_file.o/
+kernel/drivers/staging/imgtec/pvr_counting_timeline.o/
+kernel/drivers/staging/imgtec/pvr_sw_fence.o/
+kernel/drivers/staging/imgtec/pvr_fence.o/
+services/server/env/linux/osfunc_arm64.o/
+services/server/env/linux/trace_events.o/
+
+/0              0           0     0     644     118360    `
+/52             0           0     0     644     103848    `
+/111            0           0     0     644     225536    `
+/167            0           0     0     644     108272    `
+/224            0           0     0     644     124376    `
+/274            0           0     0     644     102624    `
+/347            0           0     0     644     114952    `
+/413            0           0     0     644     155608    `
+/469            0           0     0     644     37648     `
+/550            0           0     0     644     64008     `
+/624            0           0     0     644     143440    `
+/678            0           0     0     644     118400    `
+/738            0           0     0     644     116520    `
+/796            0           0     0     644     122976    `
+/864            0           0     0     644     115168    `
+/930            0           0     0     644     36136     `
+/995            0           0     0     644     52544     `
+/1053           0           0     0     644     54576     `
+/1101           0           0     0     644     139968    `
+/1153           0           0     0     644     147208    `
+/1206           0           0     0     644     258824    `
+/1252           0           0     0     644     125056    `
+/1316           0           0     0     644     135200    `
+/1368           0           0     0     644     109736    `
+/1427           0           0     0     644     108824    `
+/1489           0           0     0     644     145800    `
+/1543           0           0     0     644     188200    `
+/1597           0           0     0     644     30416     `
+/1642           0           0     0     644     144560    `
+/1685           0           0     0     644     186712    `
+/1736           0           0     0     644     123808    `
+/1776           0           0     0     644     36432     `
+/1822           0           0     0     644     36576     `
+/1882           0           0     0     644     202016    `
+/1936           0           0     0     644     166216    `
+/1975           0           0     0     644     164320    `
+/2011           0           0     0     644     142824    `
+/2048           0           0     0     644     98776     `
+/2094           0           0     0     644     155096    `
+/2136           0           0     0     644     319328    `
+/2179           0           0     0     644     66672     `
+/2228           0           0     0     644     351376    `
+/2272           0           0     0     644     179512    `
+/2312           0           0     0     644     226872    `
+/2352           0           0     0     644     119744    `
+/2396           0           0     0     644     208560    `
+/2441           0           0     0     644     161168    `
+/2488           0           0     0     644     147168    `
+/2536           0           0     0     644     390856    `
+/2577           0           0     0     644     150416    `
+/2621           0           0     0     644     177376    `
+/2668           0           0     0     644     194448    `
+/2716           0           0     0     644     174392    `
+/2757           0           0     0     644     828704    `
+/2799           0           0     0     644     330768    `
+/2840           0           0     0     644     180608    `
+/2885           0           0     0     644     166984    `
+/2929           0           0     0     644     107640    `
+/2975           0           0     0     644     203576    `
+/3019           0           0     0     644     161032    `
+/3065           0           0     0     644     182368    `
+/3107           0           0     0     644     34848     `
+/3153           0           0     0     644     134352    `
+/3199           0           0     0     644     155168    `
+/3234           0           0     0     644     43128     `
+/3272           0           0     0     644     297408    `
+/3307           0           0     0     644     143840    `
+/3343           0           0     0     644     115896    `
+/3378           0           0     0     644     143640    `
+/3417           0           0     0     644     88272     `
+/3468           0           0     0     644     133304    `
+/3502           0           0     0     644     127080    `
+/3537           0           0     0     644     47608     `
+/3572           0           0     0     644     197784    `
+/3605           0           0     0     644     103888    `
+/3649           0           0     0     644     187952    `
+/3687           0           0     0     644     258448    `
+/3729           0           0     0     644     65280     `
+/3761           0           0     0     644     112552    `
+/3800           0           0     0     644     155032    `
+/3838           0           0     0     644     196280    `
+/3878           0           0     0     644     127160    `
+/3922           0           0     0     644     212328    `
+/3952           0           0     0     644     58440     `
+/3997           0           0     0     644     247768    `
+/4034           0           0     0     644     223464    `
+/4077           0           0     0     644     141040    `
+/4109           0           0     0     644     39568     `
+/4151           0           0     0     644     299552    `
+/4184           0           0     0     644     179712    `
+/4218           0           0     0     644     108848    `
+/4255           0           0     0     644     141768    `
+/4291           0           0     0     644     111976    `
+/4332           0           0     0     644     150760    `
+/4373           0           0     0     644     139344    `
+/4409           0           0     0     644     65712     `
+/4445           0           0     0     644     216056    `
+/4485           0           0     0     644     34744     `
+/4526           0           0     0     644     137088    `
+/4568           0           0     0     644     23976     `
+/4606           0           0     0     644     260272    `
+/4648           0           0     0     644     223120    `
+/4692           0           0     0     644     146648    `
+/4733           0           0     0     644     103640    `
+/4782           0           0     0     644     88576     `
+/4822           0           0     0     644     199536    `
+/4857           0           0     0     644     62696     `
+/4893           0           0     0     644     186504    `
+/4929           0           0     0     644     259984    `
+/4972           0           0     0     644     305392    `
+/5021           0           0     0     644     302312    `
+/5057           0           0     0     644     467008    `
+/5099           0           0     0     644     205624    `
+/5138           0           0     0     644     175024    `
+/5178           0           0     0     644     177568    `
+/5221           0           0     0     644     140360    `
+/5271           0           0     0     644     147280    `
+/5313           0           0     0     644     122608    `
+/5344           0           0     0     644     65976     `
+/5373           0           0     0     644     138800    `
+/5404           0           0     0     644     11160     `
+/5450           0           0     0     644     121512    `
+/5485           0           0     0     644     194552    `
+/5521           0           0     0     644     39736     `
+/5556           0           0     0     644     9968      `
+/5592           0           0     0     644     71624     `
+/5631           0           0     0     644     214256    `
+/5672           0           0     0     644     237400    `
+/5722           0           0     0     644     258736    `
+/5769           0           0     0     644     56136     `
+/5824           0           0     0     644     26968     `
+/5870           0           0     0     644     342496    `
+/5913           0           0     0     644     193712    `
+/5955           0           0     0     644     68744     `

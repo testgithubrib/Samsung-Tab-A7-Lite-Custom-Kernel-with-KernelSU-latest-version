@@ -1,0 +1,1 @@
+cmd_drivers/gpu/mediatek/gpufreq/mt6765/built-in.a :=  rm -f drivers/gpu/mediatek/gpufreq/mt6765/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/gpu/mediatek/gpufreq/mt6765/built-in.a drivers/gpu/mediatek/gpufreq/mt6765/mtk_gpufreq_core.o

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/aee/aed/built-in.a :=  rm -f drivers/misc/mediatek/aee/aed/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/aee/aed/built-in.a drivers/misc/mediatek/aee/aed/aed-main.o drivers/misc/mediatek/aee/aed/aee-common.o drivers/misc/mediatek/aee/aed/reboot-reason.o

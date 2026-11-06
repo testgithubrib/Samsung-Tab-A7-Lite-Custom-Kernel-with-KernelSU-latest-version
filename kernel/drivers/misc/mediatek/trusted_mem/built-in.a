@@ -1,0 +1,31 @@
+!<thin>
+//                                              224       `
+ssmr/memory_ssmr.o/
+dev_mgr.o/
+entry.o/
+region_mgr.o/
+ssmr_mgr.o/
+peer_mgr.o/
+proc.o/
+alloc_api.o/
+mpu_vio_checker.o/
+tee_devices.o/
+tee_impl/tee_invoke.o/
+tee_impl/tee_ops.o/
+mtee_impl/mtee_ops.o/
+mtee_impl/mtee_invoke.o/
+
+/0              0           0     0     644     188096    `
+/20             0           0     0     644     27752     `
+/31             0           0     0     644     51384     `
+/40             0           0     0     644     42208     `
+/54             0           0     0     644     16464     `
+/66             0           0     0     644     34152     `
+/78             0           0     0     644     170816    `
+/86             0           0     0     644     20112     `
+/99             0           0     0     644     7280      `
+/118            0           0     0     644     26304     `
+/133            0           0     0     644     20800     `
+/156            0           0     0     644     46608     `
+/176            0           0     0     644     36112     `
+/198            0           0     0     644     21728     `

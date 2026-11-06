@@ -1,0 +1,22 @@
+!<thin>
+//                                              160       `
+mem.o/
+random.o/
+misc.o/
+virtio_console.o/
+hw_random/core.o/
+hw_random/virtio-rng.o/
+hw_random/mtk-rng.o/
+hw_random/mt67xx-rng.o/
+rpmb/rpmb-mtk.o/
+rpmb/core.o/
+/0              0           0     0     644     210080    `
+/7              0           0     0     644     442368    `
+/17             0           0     0     644     146640    `
+/25             0           0     0     644     277448    `
+/43             0           0     0     644     180040    `
+/61             0           0     0     644     145184    `
+/85             0           0     0     644     100768    `
+/106            0           0     0     644     55832     `
+/130            0           0     0     644     299736    `
+/147            0           0     0     644     89880     `

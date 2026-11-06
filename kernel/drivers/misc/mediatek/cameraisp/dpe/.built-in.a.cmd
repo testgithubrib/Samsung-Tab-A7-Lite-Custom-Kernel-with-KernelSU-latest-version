@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/cameraisp/dpe/built-in.a :=  rm -f drivers/misc/mediatek/cameraisp/dpe/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/cameraisp/dpe/built-in.a drivers/misc/mediatek/cameraisp/dpe/cameradpe_dummy.o drivers/misc/mediatek/cameraisp/dpe/mt6765/camera_dpe.o

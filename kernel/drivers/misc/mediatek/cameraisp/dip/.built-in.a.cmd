@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/cameraisp/dip/built-in.a :=  rm -f drivers/misc/mediatek/cameraisp/dip/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/misc/mediatek/cameraisp/dip/built-in.a drivers/misc/mediatek/cameraisp/dip/cameradip_dummy.o
