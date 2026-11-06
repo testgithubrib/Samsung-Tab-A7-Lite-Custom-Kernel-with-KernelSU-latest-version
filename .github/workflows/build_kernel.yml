@@ -1,4 +1,4 @@
-name: Build SM-T220 Custom Kernel & Driver
+name: Build SM-T220 Custom Kernel & Release
 
 on:
   workflow_dispatch:
@@ -10,10 +10,15 @@ on:
       - 'README.md'
       - '.gitignore'
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: Compile Kernel & Package boot.img
     runs-on: ubuntu-22.04
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout Repository
@@ -25,20 +30,13 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends \
-            bc bison flex libssl-dev python3 make gcc-aarch64-linux-gnu \
-            libelf-dev curl tar gzip libncurses5-dev ca-certificates
+            bc bison flex libssl-dev python3 python-is-python3 make \
+            clang lld llvm gcc-aarch64-linux-gnu binutils-aarch64-linux-gnu \
+            libelf-dev tar gzip ca-certificates cpio libncurses5-dev
 
-      - name: Prepare Scripts & Toolchains
+      - name: Prepare Scripts & Permissions
         run: |
           chmod +x build.sh repack_boot.py
-          mkdir -p toolchain/clang/host/linux-x86/clang-r383902
-          mkdir -p toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
-
-          echo "Downloading Google AOSP Clang r383902..."
-          curl -fsSL "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android11-release/clang-r383902.tar.gz" | tar -xz -C toolchain/clang/host/linux-x86/clang-r383902
-
-          echo "Downloading Google AOSP GCC 4.9 (aarch64)..."
-          curl -fsSL "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/+archive/refs/heads/android11-release.tar.gz" | tar -xz -C toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
 
       - name: Compile Kernel & Repack boot.img
         run: |
@@ -48,12 +46,17 @@ jobs:
         run: |
           mkdir -p release_package
           cp boot.img release_package/
+          if [ -f kernel/out/arch/arm64/boot/Image.gz ]; then
+            cp kernel/out/arch/arm64/boot/Image.gz release_package/
+          elif [ -f kernel/arch/arm64/boot/Image.gz ]; then
+            cp kernel/arch/arm64/boot/Image.gz release_package/
+          fi
           if [ -f KernelSU_v3.3.1_32680-release.apk ]; then
             cp KernelSU_v3.3.1_32680-release.apk release_package/
           fi
-          if [ -d driver ]; then
-            cp -r driver release_package/
-          fi
+          cd release_package
+          sha256sum * > sha256sum.txt
+          cd ..
           ls -la release_package/
 
       - name: Upload Build Artifacts
@@ -61,3 +64,47 @@ jobs:
         with:
           name: SM-T220-KernelSU-CustomKernel
           path: release_package/*
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master' || startsWith(github.ref, 'refs/tags/')
+        with:
+          tag_name: v1.0-KernelSU
+          name: "Samsung Galaxy Tab A7 Lite (SM-T220) KernelSU v1.0"
+          draft: false
+          prerelease: false
+          make_latest: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+          files: release_package/*
+          body: |
+            ## Samsung Galaxy Tab A7 Lite (SM-T220 / gta7litewifi) KernelSU Release
+
+            Automated custom kernel build with integrated KernelSU support for Samsung Galaxy Tab A7 Lite (SM-T220).
+
+            ### 📦 Included Files:
+            - **`boot.img`** (32 MB): Complete flashable Android boot image containing Linux 4.19.191 with KernelSU integration, stock Huaqin ramdisk, MT8768 device tree, and Samsung `SEANDROIDENFORCE` footer.
+            - **`Image.gz`**: Standalone compressed kernel image (ARM64).
+            - **`KernelSU_v3.3.1_32680-release.apk`**: Official KernelSU manager app.
+            - **`sha256sum.txt`**: SHA-256 integrity checksums.
+
+            ---
+
+            ### 🚀 Flashing Instructions:
+
+            #### Method 1: Fastboot (Unlocked Bootloader)
+            ```bash
+            fastboot flash boot boot.img
+            fastboot reboot
+            ```
+
+            #### Method 2: TWRP / Custom Recovery
+            1. Transfer `boot.img` to internal storage or MicroSD card.
+            2. In recovery, select **Install** -> **Install Image**.
+            3. Choose `boot.img`, select partition **Boot**, and swipe to confirm flash.
+            4. Reboot system.
+
+            #### Method 3: KernelSU App
+            1. Once the system boots, install `KernelSU_v3.3.1_32680-release.apk`.
+            2. Open KernelSU: the dashboard will show status as **Working**!
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -15,36 +15,33 @@ echo "========================================================"
 echo " Starting Build for SM-T220 (gta7litewifi) KernelSU    "
 echo "========================================================"
 
-# Check toolchain setup
-CLANG_DIR="$TOOLCHAIN_DIR/clang/host/linux-x86/clang-r383902"
-GCC_DIR="$TOOLCHAIN_DIR/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"
-
-if [ ! -d "$CLANG_DIR" ] || [ ! -d "$GCC_DIR" ]; then
-    echo ">> Prebuilt toolchains not found in $TOOLCHAIN_DIR."
-    echo ">> Downloading required Android AOSP toolchains..."
-    mkdir -p "$CLANG_DIR" "$GCC_DIR"
-
-    if [ ! -f "$CLANG_DIR/bin/clang" ]; then
-        echo "   Downloading Clang r383902..."
-        curl -fsSL "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android11-release/clang-r383902.tar.gz" | tar -xz -C "$CLANG_DIR"
-    fi
-
-    if [ ! -f "$GCC_DIR/bin/aarch64-linux-androidkernel-gcc" ] && [ ! -f "$GCC_DIR/bin/aarch64-linux-android-gcc" ]; then
-        echo "   Downloading GCC 4.9 (aarch64)..."
-        curl -fsSL "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/+archive/refs/heads/android11-release.tar.gz" | tar -xz -C "$GCC_DIR"
-    fi
-fi
-
-# Determine GCC prefix
-if [ -f "$GCC_DIR/bin/aarch64-linux-androidkernel-gcc" ]; then
-    CROSS_PREFIX="$GCC_DIR/bin/aarch64-linux-androidkernel-"
+# Determine Clang
+if [ -f "$TOOLCHAIN_DIR/clang/host/linux-x86/clang-r383902/bin/clang" ]; then
+    CLANG_BIN="$TOOLCHAIN_DIR/clang/host/linux-x86/clang-r383902/bin/clang"
+elif command -v clang >/dev/null 2>&1; then
+    CLANG_BIN="$(command -v clang)"
 else
-    CROSS_PREFIX="$GCC_DIR/bin/aarch64-linux-android-"
+    echo ">> Clang not found! Please install clang."
+    exit 1
 fi
+
+# Determine Cross-compiler (GCC / Binutils)
+if [ -f "$TOOLCHAIN_DIR/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-androidkernel-gcc" ]; then
+    CROSS_PREFIX="$TOOLCHAIN_DIR/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-androidkernel-"
+elif [ -f "$TOOLCHAIN_DIR/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-gcc" ]; then
+    CROSS_PREFIX="$TOOLCHAIN_DIR/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-"
+elif command -v aarch64-linux-gnu-gcc >/dev/null 2>&1; then
+    CROSS_PREFIX="aarch64-linux-gnu-"
+else
+    CROSS_PREFIX="aarch64-linux-gnu-"
+fi
+
+echo ">> Using Compiler: $CLANG_BIN"
+echo ">> Using Cross-prefix: $CROSS_PREFIX"
 
 export ARCH=arm64
 export SUBARCH=arm64
-export CC="$CLANG_DIR/bin/clang"
+export CC="$CLANG_BIN"
 export CROSS_COMPILE="$CROSS_PREFIX"
 export CLANG_TRIPLE=aarch64-linux-gnu-
 export KCFLAGS="-w"
@@ -59,10 +56,10 @@ fi
 mkdir -p "$OUT_DIR"
 
 echo ">> Generating defconfig..."
-make -C "$KERNEL_DIR" O="$OUT_DIR" KCFLAGS=-w CONFIG_SECTION_MISMATCH_WARN_ONLY=y gta7litewifi_defconfig
+make -C "$KERNEL_DIR" O="$OUT_DIR" ARCH=arm64 SUBARCH=arm64 CC="$CLANG_BIN" CROSS_COMPILE="$CROSS_PREFIX" CLANG_TRIPLE=aarch64-linux-gnu- KCFLAGS=-w CONFIG_SECTION_MISMATCH_WARN_ONLY=y gta7litewifi_defconfig
 
 echo ">> Compiling kernel with $(nproc) threads..."
-make -C "$KERNEL_DIR" O="$OUT_DIR" KCFLAGS=-w CONFIG_SECTION_MISMATCH_WARN_ONLY=y -j"$(nproc)"
+make -C "$KERNEL_DIR" O="$OUT_DIR" ARCH=arm64 SUBARCH=arm64 CC="$CLANG_BIN" CROSS_COMPILE="$CROSS_PREFIX" CLANG_TRIPLE=aarch64-linux-gnu- KCFLAGS=-w CONFIG_SECTION_MISMATCH_WARN_ONLY=y -j"$(nproc)"
 
 IMAGE_GZ="$OUT_DIR/arch/arm64/boot/Image.gz"
 if [ ! -f "$IMAGE_GZ" ]; then
