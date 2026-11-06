@@ -40,7 +40,14 @@ jobs:
 
       - name: Compile Kernel & Repack boot.img
         run: |
-          ./build.sh
+          ./build.sh 2>&1 | tee build.log
+
+      - name: Upload Build Log on Failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-failure-log
+          path: build.log
 
       - name: Prepare Release Artifacts
         run: |

@@ -53,24 +53,18 @@ if [ ! -e "$KERNEL_DIR/drivers/kernelsu" ]; then
     ln -s ../KernelSU/kernel "$KERNEL_DIR/drivers/kernelsu"
 fi
 
-mkdir -p "$OUT_DIR"
-
 echo ">> Generating defconfig..."
-make -C "$KERNEL_DIR" O="$OUT_DIR" ARCH=arm64 SUBARCH=arm64 CC="$CLANG_BIN" CROSS_COMPILE="$CROSS_PREFIX" CLANG_TRIPLE=aarch64-linux-gnu- KCFLAGS=-w CONFIG_SECTION_MISMATCH_WARN_ONLY=y gta7litewifi_defconfig
+make -C "$KERNEL_DIR" ARCH=arm64 SUBARCH=arm64 CC="$CLANG_BIN" CROSS_COMPILE="$CROSS_PREFIX" CLANG_TRIPLE=aarch64-linux-gnu- KCFLAGS="-w -Qunused-arguments" CONFIG_SECTION_MISMATCH_WARN_ONLY=y gta7litewifi_defconfig
 
 echo ">> Compiling kernel with $(nproc) threads..."
-make -C "$KERNEL_DIR" O="$OUT_DIR" ARCH=arm64 SUBARCH=arm64 CC="$CLANG_BIN" CROSS_COMPILE="$CROSS_PREFIX" CLANG_TRIPLE=aarch64-linux-gnu- KCFLAGS=-w CONFIG_SECTION_MISMATCH_WARN_ONLY=y -j"$(nproc)"
+make -C "$KERNEL_DIR" ARCH=arm64 SUBARCH=arm64 CC="$CLANG_BIN" CROSS_COMPILE="$CROSS_PREFIX" CLANG_TRIPLE=aarch64-linux-gnu- KCFLAGS="-w -Qunused-arguments" CONFIG_SECTION_MISMATCH_WARN_ONLY=y -j"$(nproc)"
 
-IMAGE_GZ="$OUT_DIR/arch/arm64/boot/Image.gz"
-if [ ! -f "$IMAGE_GZ" ]; then
-    echo ">> Image.gz not in out/, checking gzip..."
-    gzip -9 -c "$OUT_DIR/arch/arm64/boot/Image" > "$IMAGE_GZ"
+IMAGE="$KERNEL_DIR/arch/arm64/boot/Image"
+IMAGE_GZ="$KERNEL_DIR/arch/arm64/boot/Image.gz"
+if [ ! -f "$IMAGE_GZ" ] && [ -f "$IMAGE" ]; then
+    echo ">> Image.gz not present, compressing Image with gzip..."
+    gzip -9 -c "$IMAGE" > "$IMAGE_GZ"
 fi
-
-# Copy Image & Image.gz to arch/arm64/boot
-mkdir -p "$KERNEL_DIR/arch/arm64/boot"
-cp "$OUT_DIR/arch/arm64/boot/Image" "$KERNEL_DIR/arch/arm64/boot/Image"
-cp "$IMAGE_GZ" "$KERNEL_DIR/arch/arm64/boot/Image.gz"
 
 echo ">> Repacking boot.img (32 MB with Samsung SEANDROIDENFORCE)..."
 python3 "$BASE_DIR/repack_boot.py" \
